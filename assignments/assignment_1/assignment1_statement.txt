@@ -1,0 +1,10 @@
+For the two problems: Minimum Dominating Set and Minimum-weighted Independent Set problems in:
+
+https://colab.research.google.com/github/srini229/EE5333_tutorials/blob/master/intro/Introduction.ipynb
+
+Formulate the ILP and program it using mip. Instructions to submit your solution:
+
+You should submit only a single Python file named ROLLNO.py if you are using Python and ROLLNO.cpp if you are using C++.
+It should only contain two functions def mds(N, E) and def mdis(N, E, W).
+You cannot import any module other than mip.
+

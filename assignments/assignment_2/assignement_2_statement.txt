@@ -1,0 +1,9 @@
+Use the Python notebook here:
+
+https://github.com/srini229/EE5333_tutorials/blob/master/part/FM_Partition.ipynb
+
+Complete the function:
+
+def partitionFM(V, E, Amin, Amax):
+
+Your submission should contain only this function and dependent functions if any. Submit only a single file named: ROLLNo.py
