@@ -1,0 +1,2278 @@
+VERSION 5.8 ;
+DIVIDERCHAR "/" ;
+BUSBITCHARS "[]" ;
+DESIGN c432 ;
+UNITS DISTANCE MICRONS 1000 ;
+DIEAREA ( 0 0 ) ( 69495 80215 ) ;
+COMPONENTS 252 ;
+   - PHY_EDGE_ROW_0_Left_21 sky130_fd_sc_hd__decap_3 
+      + PLACED ( 5520 10880 ) N ;
+   - PHY_EDGE_ROW_0_Right_0 sky130_fd_sc_hd__decap_3 
+      + PLACED ( 62560 10880 ) FN ;
+   - PHY_EDGE_ROW_10_Left_31 sky130_fd_sc_hd__decap_3 
+      + PLACED ( 5520 38080 ) N ;
+   - PHY_EDGE_ROW_10_Right_10 sky130_fd_sc_hd__decap_3 
+      + PLACED ( 62560 38080 ) FN ;
+   - PHY_EDGE_ROW_11_Left_32 sky130_fd_sc_hd__decap_3 
+      + PLACED ( 5520 40800 ) FS ;
+   - PHY_EDGE_ROW_11_Right_11 sky130_fd_sc_hd__decap_3 
+      + PLACED ( 62560 40800 ) S ;
+   - PHY_EDGE_ROW_12_Left_33 sky130_fd_sc_hd__decap_3 
+      + PLACED ( 5520 43520 ) N ;
+   - PHY_EDGE_ROW_12_Right_12 sky130_fd_sc_hd__decap_3 
+      + PLACED ( 62560 43520 ) FN ;
+   - PHY_EDGE_ROW_13_Left_34 sky130_fd_sc_hd__decap_3 
+      + PLACED ( 5520 46240 ) FS ;
+   - PHY_EDGE_ROW_13_Right_13 sky130_fd_sc_hd__decap_3 
+      + PLACED ( 62560 46240 ) S ;
+   - PHY_EDGE_ROW_14_Left_35 sky130_fd_sc_hd__decap_3 
+      + PLACED ( 5520 48960 ) N ;
+   - PHY_EDGE_ROW_14_Right_14 sky130_fd_sc_hd__decap_3 
+      + PLACED ( 62560 48960 ) FN ;
+   - PHY_EDGE_ROW_15_Left_36 sky130_fd_sc_hd__decap_3 
+      + PLACED ( 5520 51680 ) FS ;
+   - PHY_EDGE_ROW_15_Right_15 sky130_fd_sc_hd__decap_3 
+      + PLACED ( 62560 51680 ) S ;
+   - PHY_EDGE_ROW_16_Left_37 sky130_fd_sc_hd__decap_3 
+      + PLACED ( 5520 54400 ) N ;
+   - PHY_EDGE_ROW_16_Right_16 sky130_fd_sc_hd__decap_3 
+      + PLACED ( 62560 54400 ) FN ;
+   - PHY_EDGE_ROW_17_Left_38 sky130_fd_sc_hd__decap_3 
+      + PLACED ( 5520 57120 ) FS ;
+   - PHY_EDGE_ROW_17_Right_17 sky130_fd_sc_hd__decap_3 
+      + PLACED ( 62560 57120 ) S ;
+   - PHY_EDGE_ROW_18_Left_39 sky130_fd_sc_hd__decap_3 
+      + PLACED ( 5520 59840 ) N ;
+   - PHY_EDGE_ROW_18_Right_18 sky130_fd_sc_hd__decap_3 
+      + PLACED ( 62560 59840 ) FN ;
+   - PHY_EDGE_ROW_19_Left_40 sky130_fd_sc_hd__decap_3 
+      + PLACED ( 5520 62560 ) FS ;
+   - PHY_EDGE_ROW_19_Right_19 sky130_fd_sc_hd__decap_3 
+      + PLACED ( 62560 62560 ) S ;
+   - PHY_EDGE_ROW_1_Left_22 sky130_fd_sc_hd__decap_3 
+      + PLACED ( 5520 13600 ) FS ;
+   - PHY_EDGE_ROW_1_Right_1 sky130_fd_sc_hd__decap_3 
+      + PLACED ( 62560 13600 ) S ;
+   - PHY_EDGE_ROW_20_Left_41 sky130_fd_sc_hd__decap_3 
+      + PLACED ( 5520 65280 ) N ;
+   - PHY_EDGE_ROW_20_Right_20 sky130_fd_sc_hd__decap_3 
+      + PLACED ( 62560 65280 ) FN ;
+   - PHY_EDGE_ROW_2_Left_23 sky130_fd_sc_hd__decap_3 
+      + PLACED ( 5520 16320 ) N ;
+   - PHY_EDGE_ROW_2_Right_2 sky130_fd_sc_hd__decap_3 
+      + PLACED ( 62560 16320 ) FN ;
+   - PHY_EDGE_ROW_3_Left_24 sky130_fd_sc_hd__decap_3 
+      + PLACED ( 5520 19040 ) FS ;
+   - PHY_EDGE_ROW_3_Right_3 sky130_fd_sc_hd__decap_3 
+      + PLACED ( 62560 19040 ) S ;
+   - PHY_EDGE_ROW_4_Left_25 sky130_fd_sc_hd__decap_3 
+      + PLACED ( 5520 21760 ) N ;
+   - PHY_EDGE_ROW_4_Right_4 sky130_fd_sc_hd__decap_3 
+      + PLACED ( 62560 21760 ) FN ;
+   - PHY_EDGE_ROW_5_Left_26 sky130_fd_sc_hd__decap_3 
+      + PLACED ( 5520 24480 ) FS ;
+   - PHY_EDGE_ROW_5_Right_5 sky130_fd_sc_hd__decap_3 
+      + PLACED ( 62560 24480 ) S ;
+   - PHY_EDGE_ROW_6_Left_27 sky130_fd_sc_hd__decap_3 
+      + PLACED ( 5520 27200 ) N ;
+   - PHY_EDGE_ROW_6_Right_6 sky130_fd_sc_hd__decap_3 
+      + PLACED ( 62560 27200 ) FN ;
+   - PHY_EDGE_ROW_7_Left_28 sky130_fd_sc_hd__decap_3 
+      + PLACED ( 5520 29920 ) FS ;
+   - PHY_EDGE_ROW_7_Right_7 sky130_fd_sc_hd__decap_3 
+      + PLACED ( 62560 29920 ) S ;
+   - PHY_EDGE_ROW_8_Left_29 sky130_fd_sc_hd__decap_3 
+      + PLACED ( 5520 32640 ) N ;
+   - PHY_EDGE_ROW_8_Right_8 sky130_fd_sc_hd__decap_3 
+      + PLACED ( 62560 32640 ) FN ;
+   - PHY_EDGE_ROW_9_Left_30 sky130_fd_sc_hd__decap_3 
+      + PLACED ( 5520 35360 ) FS ;
+   - PHY_EDGE_ROW_9_Right_9 sky130_fd_sc_hd__decap_3 
+      + PLACED ( 62560 35360 ) S ;
+   - TAP_TAPCELL_ROW_0_42 sky130_fd_sc_hd__tapvpwrvgnd_1 
+      + PLACED ( 18400 10880 ) N ;
+   - TAP_TAPCELL_ROW_0_43 sky130_fd_sc_hd__tapvpwrvgnd_1 
+      + PLACED ( 31280 10880 ) N ;
+   - TAP_TAPCELL_ROW_0_44 sky130_fd_sc_hd__tapvpwrvgnd_1 
+      + PLACED ( 44160 10880 ) N ;
+   - TAP_TAPCELL_ROW_0_45 sky130_fd_sc_hd__tapvpwrvgnd_1 
+      + PLACED ( 57040 10880 ) N ;
+   - TAP_TAPCELL_ROW_10_64 sky130_fd_sc_hd__tapvpwrvgnd_1 
+      + PLACED ( 18400 38080 ) N ;
+   - TAP_TAPCELL_ROW_10_65 sky130_fd_sc_hd__tapvpwrvgnd_1 
+      + PLACED ( 44160 38080 ) N ;
+   - TAP_TAPCELL_ROW_11_66 sky130_fd_sc_hd__tapvpwrvgnd_1 
+      + PLACED ( 31280 40800 ) FS ;
+   - TAP_TAPCELL_ROW_11_67 sky130_fd_sc_hd__tapvpwrvgnd_1 
+      + PLACED ( 57040 40800 ) FS ;
+   - TAP_TAPCELL_ROW_12_68 sky130_fd_sc_hd__tapvpwrvgnd_1 
+      + PLACED ( 18400 43520 ) N ;
+   - TAP_TAPCELL_ROW_12_69 sky130_fd_sc_hd__tapvpwrvgnd_1 
+      + PLACED ( 44160 43520 ) N ;
+   - TAP_TAPCELL_ROW_13_70 sky130_fd_sc_hd__tapvpwrvgnd_1 
+      + PLACED ( 31280 46240 ) FS ;
+   - TAP_TAPCELL_ROW_13_71 sky130_fd_sc_hd__tapvpwrvgnd_1 
+      + PLACED ( 57040 46240 ) FS ;
+   - TAP_TAPCELL_ROW_14_72 sky130_fd_sc_hd__tapvpwrvgnd_1 
+      + PLACED ( 18400 48960 ) N ;
+   - TAP_TAPCELL_ROW_14_73 sky130_fd_sc_hd__tapvpwrvgnd_1 
+      + PLACED ( 44160 48960 ) N ;
+   - TAP_TAPCELL_ROW_15_74 sky130_fd_sc_hd__tapvpwrvgnd_1 
+      + PLACED ( 31280 51680 ) FS ;
+   - TAP_TAPCELL_ROW_15_75 sky130_fd_sc_hd__tapvpwrvgnd_1 
+      + PLACED ( 57040 51680 ) FS ;
+   - TAP_TAPCELL_ROW_16_76 sky130_fd_sc_hd__tapvpwrvgnd_1 
+      + PLACED ( 18400 54400 ) N ;
+   - TAP_TAPCELL_ROW_16_77 sky130_fd_sc_hd__tapvpwrvgnd_1 
+      + PLACED ( 44160 54400 ) N ;
+   - TAP_TAPCELL_ROW_17_78 sky130_fd_sc_hd__tapvpwrvgnd_1 
+      + PLACED ( 31280 57120 ) FS ;
+   - TAP_TAPCELL_ROW_17_79 sky130_fd_sc_hd__tapvpwrvgnd_1 
+      + PLACED ( 57040 57120 ) FS ;
+   - TAP_TAPCELL_ROW_18_80 sky130_fd_sc_hd__tapvpwrvgnd_1 
+      + PLACED ( 18400 59840 ) N ;
+   - TAP_TAPCELL_ROW_18_81 sky130_fd_sc_hd__tapvpwrvgnd_1 
+      + PLACED ( 44160 59840 ) N ;
+   - TAP_TAPCELL_ROW_19_82 sky130_fd_sc_hd__tapvpwrvgnd_1 
+      + PLACED ( 31280 62560 ) FS ;
+   - TAP_TAPCELL_ROW_19_83 sky130_fd_sc_hd__tapvpwrvgnd_1 
+      + PLACED ( 57040 62560 ) FS ;
+   - TAP_TAPCELL_ROW_1_46 sky130_fd_sc_hd__tapvpwrvgnd_1 
+      + PLACED ( 31280 13600 ) FS ;
+   - TAP_TAPCELL_ROW_1_47 sky130_fd_sc_hd__tapvpwrvgnd_1 
+      + PLACED ( 57040 13600 ) FS ;
+   - TAP_TAPCELL_ROW_20_84 sky130_fd_sc_hd__tapvpwrvgnd_1 
+      + PLACED ( 18400 65280 ) N ;
+   - TAP_TAPCELL_ROW_20_85 sky130_fd_sc_hd__tapvpwrvgnd_1 
+      + PLACED ( 31280 65280 ) N ;
+   - TAP_TAPCELL_ROW_20_86 sky130_fd_sc_hd__tapvpwrvgnd_1 
+      + PLACED ( 44160 65280 ) N ;
+   - TAP_TAPCELL_ROW_20_87 sky130_fd_sc_hd__tapvpwrvgnd_1 
+      + PLACED ( 57040 65280 ) N ;
+   - TAP_TAPCELL_ROW_2_48 sky130_fd_sc_hd__tapvpwrvgnd_1 
+      + PLACED ( 18400 16320 ) N ;
+   - TAP_TAPCELL_ROW_2_49 sky130_fd_sc_hd__tapvpwrvgnd_1 
+      + PLACED ( 44160 16320 ) N ;
+   - TAP_TAPCELL_ROW_3_50 sky130_fd_sc_hd__tapvpwrvgnd_1 
+      + PLACED ( 31280 19040 ) FS ;
+   - TAP_TAPCELL_ROW_3_51 sky130_fd_sc_hd__tapvpwrvgnd_1 
+      + PLACED ( 57040 19040 ) FS ;
+   - TAP_TAPCELL_ROW_4_52 sky130_fd_sc_hd__tapvpwrvgnd_1 
+      + PLACED ( 18400 21760 ) N ;
+   - TAP_TAPCELL_ROW_4_53 sky130_fd_sc_hd__tapvpwrvgnd_1 
+      + PLACED ( 44160 21760 ) N ;
+   - TAP_TAPCELL_ROW_5_54 sky130_fd_sc_hd__tapvpwrvgnd_1 
+      + PLACED ( 31280 24480 ) FS ;
+   - TAP_TAPCELL_ROW_5_55 sky130_fd_sc_hd__tapvpwrvgnd_1 
+      + PLACED ( 57040 24480 ) FS ;
+   - TAP_TAPCELL_ROW_6_56 sky130_fd_sc_hd__tapvpwrvgnd_1 
+      + PLACED ( 18400 27200 ) N ;
+   - TAP_TAPCELL_ROW_6_57 sky130_fd_sc_hd__tapvpwrvgnd_1 
+      + PLACED ( 44160 27200 ) N ;
+   - TAP_TAPCELL_ROW_7_58 sky130_fd_sc_hd__tapvpwrvgnd_1 
+      + PLACED ( 31280 29920 ) FS ;
+   - TAP_TAPCELL_ROW_7_59 sky130_fd_sc_hd__tapvpwrvgnd_1 
+      + PLACED ( 57040 29920 ) FS ;
+   - TAP_TAPCELL_ROW_8_60 sky130_fd_sc_hd__tapvpwrvgnd_1 
+      + PLACED ( 18400 32640 ) N ;
+   - TAP_TAPCELL_ROW_8_61 sky130_fd_sc_hd__tapvpwrvgnd_1 
+      + PLACED ( 44160 32640 ) N ;
+   - TAP_TAPCELL_ROW_9_62 sky130_fd_sc_hd__tapvpwrvgnd_1 
+      + PLACED ( 31280 35360 ) FS ;
+   - TAP_TAPCELL_ROW_9_63 sky130_fd_sc_hd__tapvpwrvgnd_1 
+      + PLACED ( 57040 35360 ) FS ;
+   - _063_ sky130_fd_sc_hd__a221o_1 
+      + PLACED ( 40940 29920 ) S ;
+   - _064_ sky130_fd_sc_hd__nand2_1 
+      + PLACED ( 26680 32640 ) FN ;
+   - _065_ sky130_fd_sc_hd__a21o_1 
+      + PLACED ( 26680 43520 ) N ;
+   - _066_ sky130_fd_sc_hd__o41a_1 
+      + PLACED ( 23000 38080 ) N ;
+   - _067_ sky130_fd_sc_hd__nor4b_1 
+      + PLACED ( 23920 40800 ) FS ;
+   - _068_ sky130_fd_sc_hd__or3_1 
+      + PLACED ( 31740 35360 ) S ;
+   - _069_ sky130_fd_sc_hd__or4b_1 
+      + PLACED ( 20240 40800 ) S ;
+   - _070_ sky130_fd_sc_hd__clkbuf_1 
+      + PLACED ( 13340 48960 ) N ;
+   - _071_ sky130_fd_sc_hd__inv_2 
+      + PLACED ( 21620 35360 ) S ;
+   - _072_ sky130_fd_sc_hd__a21o_1 
+      + PLACED ( 20240 38080 ) N ;
+   - _073_ sky130_fd_sc_hd__a211o_1 
+      + PLACED ( 17020 40800 ) FS ;
+   - _074_ sky130_fd_sc_hd__inv_2 
+      + PLACED ( 17480 57120 ) FS ;
+   - _075_ sky130_fd_sc_hd__or2b_1 
+      + PLACED ( 30820 54400 ) N ;
+   - _076_ sky130_fd_sc_hd__or2b_1 
+      + PLACED ( 31740 24480 ) FS ;
+   - _077_ sky130_fd_sc_hd__or2b_1 
+      + PLACED ( 37720 54400 ) N ;
+   - _078_ sky130_fd_sc_hd__o2111ai_2 
+      + PLACED ( 31740 51680 ) S ;
+   - _079_ sky130_fd_sc_hd__inv_2 
+      + PLACED ( 18860 27200 ) N ;
+   - _080_ sky130_fd_sc_hd__or2b_1 
+      + PLACED ( 47840 48960 ) FN ;
+   - _081_ sky130_fd_sc_hd__or2b_1 
+      + PLACED ( 47380 21760 ) N ;
+   - _082_ sky130_fd_sc_hd__or2b_1 
+      + PLACED ( 50600 40800 ) S ;
+   - _083_ sky130_fd_sc_hd__o2111ai_1 
+      + PLACED ( 46460 35360 ) S ;
+   - _084_ sky130_fd_sc_hd__and2b_1 
+      + PLACED ( 51980 21760 ) FN ;
+   - _085_ sky130_fd_sc_hd__or3_1 
+      + PLACED ( 49220 32640 ) FN ;
+   - _086_ sky130_fd_sc_hd__buf_2 
+      + PLACED ( 43240 35360 ) FS ;
+   - _087_ sky130_fd_sc_hd__a21bo_1 
+      + PLACED ( 34040 54400 ) FN ;
+   - _088_ sky130_fd_sc_hd__inv_2 
+      + PLACED ( 23000 48960 ) FN ;
+   - _089_ sky130_fd_sc_hd__a211o_1 
+      + PLACED ( 27600 54400 ) FN ;
+   - _090_ sky130_fd_sc_hd__a211o_1 
+      + PLACED ( 24380 48960 ) FN ;
+   - _091_ sky130_fd_sc_hd__o211a_1 
+      + PLACED ( 31740 48960 ) FN ;
+   - _092_ sky130_fd_sc_hd__a21bo_1 
+      + PLACED ( 46920 40800 ) S ;
+   - _093_ sky130_fd_sc_hd__a21bo_1 
+      + PLACED ( 44160 51680 ) S ;
+   - _094_ sky130_fd_sc_hd__o22a_1 
+      + PLACED ( 44620 48960 ) N ;
+   - _095_ sky130_fd_sc_hd__a21bo_1 
+      + PLACED ( 32660 27200 ) N ;
+   - _096_ sky130_fd_sc_hd__inv_2 
+      + PLACED ( 50140 27200 ) FN ;
+   - _097_ sky130_fd_sc_hd__inv_2 
+      + PLACED ( 49680 29920 ) S ;
+   - _098_ sky130_fd_sc_hd__o31a_1 
+      + PLACED ( 46000 32640 ) N ;
+   - _099_ sky130_fd_sc_hd__or2_1 
+      + PLACED ( 44620 29920 ) S ;
+   - _100_ sky130_fd_sc_hd__a211o_1 
+      + PLACED ( 35880 32640 ) FN ;
+   - _101_ sky130_fd_sc_hd__inv_2 
+      + PLACED ( 43700 19040 ) FS ;
+   - _102_ sky130_fd_sc_hd__or2_1 
+      + PLACED ( 45080 24480 ) FS ;
+   - _103_ sky130_fd_sc_hd__a21o_1 
+      + PLACED ( 41400 27200 ) N ;
+   - _104_ sky130_fd_sc_hd__o2111a_1 
+      + PLACED ( 36800 29920 ) S ;
+   - _105_ sky130_fd_sc_hd__nand3_2 
+      + PLACED ( 36800 48960 ) N ;
+   - _106_ sky130_fd_sc_hd__buf_2 
+      + PLACED ( 39100 35360 ) S ;
+   - _107_ sky130_fd_sc_hd__a21o_1 
+      + PLACED ( 36800 46240 ) S ;
+   - _108_ sky130_fd_sc_hd__a21o_1 
+      + PLACED ( 44620 21760 ) N ;
+   - _109_ sky130_fd_sc_hd__a211o_1 
+      + PLACED ( 40020 21760 ) FN ;
+   - _110_ sky130_fd_sc_hd__o21a_1 
+      + PLACED ( 41400 40800 ) S ;
+   - _111_ sky130_fd_sc_hd__a221o_1 
+      + PLACED ( 27600 51680 ) FS ;
+   - _112_ sky130_fd_sc_hd__a211o_1 
+      + PLACED ( 39100 32640 ) N ;
+   - _113_ sky130_fd_sc_hd__o21a_1 
+      + PLACED ( 31740 38080 ) FN ;
+   - _114_ sky130_fd_sc_hd__a221o_1 
+      + PLACED ( 28060 48960 ) N ;
+   - _115_ sky130_fd_sc_hd__a21o_1 
+      + PLACED ( 34040 35360 ) FS ;
+   - _116_ sky130_fd_sc_hd__a211o_1 
+      + PLACED ( 28060 35360 ) S ;
+   - _117_ sky130_fd_sc_hd__a211o_1 
+      + PLACED ( 31740 32640 ) N ;
+   - _118_ sky130_fd_sc_hd__o211a_1 
+      + PLACED ( 27600 40800 ) S ;
+   - _119_ sky130_fd_sc_hd__inv_2 
+      + PLACED ( 36800 35360 ) FS ;
+   - _120_ sky130_fd_sc_hd__a21oi_1 
+      + PLACED ( 42320 43520 ) FN ;
+   - _121_ sky130_fd_sc_hd__a21o_1 
+      + PLACED ( 40480 48960 ) N ;
+   - _122_ sky130_fd_sc_hd__o2bb2a_1 
+      + PLACED ( 35420 43520 ) N ;
+   - _123_ sky130_fd_sc_hd__nand4_4 
+      + PLACED ( 33580 40800 ) FS ;
+   - _124_ sky130_fd_sc_hd__a21oi_2 
+      + PLACED ( 39100 43520 ) FN ;
+   - _125_ sky130_fd_sc_hd__a21oi_1 
+      + PLACED ( 31740 40800 ) FS ;
+   - _126_ sky130_fd_sc_hd__a21oi_1 
+      + PLACED ( 39560 46240 ) FS ;
+   - _127_ sky130_fd_sc_hd__a21boi_1 
+      + PLACED ( 31740 43520 ) FN ;
+   - _128_ sky130_fd_sc_hd__or4_1 
+      + PLACED ( 27140 38080 ) FN ;
+   - _129_ sky130_fd_sc_hd__clkbuf_1 
+      + PLACED ( 24380 46240 ) FS ;
+   - _130_ sky130_fd_sc_hd__a221oi_1 
+      + PLACED ( 24840 35360 ) S ;
+   - _131_ sky130_fd_sc_hd__a221oi_2 
+      + PLACED ( 39560 24480 ) FS ;
+   - _132_ sky130_fd_sc_hd__a221o_1 
+      + PLACED ( 33120 29920 ) S ;
+   - _133_ sky130_fd_sc_hd__dfxtp_1 
+      + PLACED ( 6900 59840 ) N ;
+   - _134_ sky130_fd_sc_hd__dfxtp_1 
+      + PLACED ( 8280 65280 ) N ;
+   - _135_ sky130_fd_sc_hd__dfxtp_1 
+      + PLACED ( 11040 54400 ) N ;
+   - _136_ sky130_fd_sc_hd__dfxtp_1 
+      + PLACED ( 13800 62560 ) FS ;
+   - _137_ sky130_fd_sc_hd__dfxtp_1 
+      + PLACED ( 18860 43520 ) N ;
+   - _138_ sky130_fd_sc_hd__dfxtp_1 
+      + PLACED ( 18860 57120 ) FS ;
+   - _139_ sky130_fd_sc_hd__dfxtp_1 
+      + PLACED ( 20700 59840 ) N ;
+   - _140_ sky130_fd_sc_hd__dfxtp_1 
+      + PLACED ( 23920 62560 ) FS ;
+   - _141_ sky130_fd_sc_hd__dfxtp_1 
+      + PLACED ( 23920 65280 ) N ;
+   - _142_ sky130_fd_sc_hd__dfxtp_1 
+      + PLACED ( 30360 59840 ) N ;
+   - _143_ sky130_fd_sc_hd__dfxtp_1 
+      + PLACED ( 33120 62560 ) S ;
+   - _144_ sky130_fd_sc_hd__dfxtp_1 
+      + PLACED ( 44620 59840 ) N ;
+   - _145_ sky130_fd_sc_hd__dfxtp_1 
+      + PLACED ( 40480 62560 ) S ;
+   - _146_ sky130_fd_sc_hd__dfxtp_1 
+      + PLACED ( 44160 57120 ) FS ;
+   - _147_ sky130_fd_sc_hd__dfxtp_1 
+      + PLACED ( 46920 54400 ) FN ;
+   - _148_ sky130_fd_sc_hd__dfxtp_1 
+      + PLACED ( 48760 46240 ) S ;
+   - _149_ sky130_fd_sc_hd__dfxtp_1 
+      + PLACED ( 49680 51680 ) S ;
+   - _150_ sky130_fd_sc_hd__dfxtp_1 
+      + PLACED ( 53820 43520 ) FN ;
+   - _151_ sky130_fd_sc_hd__dfxtp_1 
+      + PLACED ( 54740 54400 ) FN ;
+   - _152_ sky130_fd_sc_hd__dfxtp_1 
+      + PLACED ( 54740 38080 ) FN ;
+   - _153_ sky130_fd_sc_hd__dfxtp_1 
+      + PLACED ( 6900 32640 ) N ;
+   - _154_ sky130_fd_sc_hd__dfxtp_1 
+      + PLACED ( 10120 21760 ) N ;
+   - _155_ sky130_fd_sc_hd__dfxtp_1 
+      + PLACED ( 11040 27200 ) N ;
+   - _156_ sky130_fd_sc_hd__dfxtp_1 
+      + PLACED ( 18860 21760 ) N ;
+   - _157_ sky130_fd_sc_hd__dfxtp_1 
+      + PLACED ( 19780 16320 ) N ;
+   - _158_ sky130_fd_sc_hd__dfxtp_1 
+      + PLACED ( 22540 10880 ) N ;
+   - _159_ sky130_fd_sc_hd__dfxtp_1 
+      + PLACED ( 23920 13600 ) FS ;
+   - _160_ sky130_fd_sc_hd__dfxtp_1 
+      + PLACED ( 34040 16320 ) N ;
+   - _161_ sky130_fd_sc_hd__dfxtp_1 
+      + PLACED ( 31740 10880 ) FN ;
+   - _162_ sky130_fd_sc_hd__dfxtp_1 
+      + PLACED ( 33580 13600 ) FS ;
+   - _163_ sky130_fd_sc_hd__dfxtp_1 
+      + PLACED ( 40940 13600 ) S ;
+   - _164_ sky130_fd_sc_hd__dfxtp_1 
+      + PLACED ( 48300 13600 ) FS ;
+   - _165_ sky130_fd_sc_hd__dfxtp_1 
+      + PLACED ( 49220 19040 ) S ;
+   - _166_ sky130_fd_sc_hd__dfxtp_1 
+      + PLACED ( 47380 16320 ) FN ;
+   - _167_ sky130_fd_sc_hd__dfxtp_1 
+      + PLACED ( 54740 16320 ) FN ;
+   - _168_ sky130_fd_sc_hd__dfxtp_1 
+      + PLACED ( 54740 21760 ) FN ;
+   - _169_ sky130_fd_sc_hd__dfxtp_1 
+      + PLACED ( 23460 19040 ) S ;
+   - _170_ sky130_fd_sc_hd__dfxtp_1 
+      + PLACED ( 26220 21760 ) FN ;
+   - _171_ sky130_fd_sc_hd__dfxtp_1 
+      + PLACED ( 6900 24480 ) S ;
+   - _172_ sky130_fd_sc_hd__dfxtp_1 
+      + PLACED ( 6900 38080 ) FN ;
+   - _173_ sky130_fd_sc_hd__dfxtp_1 
+      + PLACED ( 6900 43520 ) FN ;
+   - _174_ sky130_fd_sc_hd__dfxtp_1 
+      + PLACED ( 6900 57120 ) S ;
+   - _175_ sky130_fd_sc_hd__dfxtp_1 
+      + PLACED ( 6900 46240 ) S ;
+   - clkbuf_0_clk sky130_fd_sc_hd__clkbuf_16 
+      + PLACED ( 34500 38080 ) FN ;
+   - clkbuf_2_0__f_clk sky130_fd_sc_hd__clkbuf_16 
+      + PLACED ( 21620 27200 ) FN ;
+   - clkbuf_2_1__f_clk sky130_fd_sc_hd__clkbuf_16 
+      + PLACED ( 18400 51680 ) S ;
+   - clkbuf_2_2__f_clk sky130_fd_sc_hd__clkbuf_16 
+      + PLACED ( 51520 27200 ) N ;
+   - clkbuf_2_3__f_clk sky130_fd_sc_hd__clkbuf_16 
+      + PLACED ( 50600 48960 ) N ;
+   - clkload0 sky130_fd_sc_hd__clkinv_1 
+      + PLACED ( 20240 27200 ) N ;
+   - clkload1 sky130_fd_sc_hd__clkinv_4 
+      + PLACED ( 51520 29920 ) FS ;
+   - clkload2 sky130_fd_sc_hd__clkinvlp_4 
+      + PLACED ( 57500 51680 ) FS ;
+   - input1 sky130_fd_sc_hd__clkbuf_1 
+      + PLACED ( 49220 10880 ) FN ;
+   - input10 sky130_fd_sc_hd__clkbuf_1 
+      + PLACED ( 21160 65280 ) N ;
+   - input11 sky130_fd_sc_hd__clkbuf_1 
+      + PLACED ( 22540 65280 ) FN ;
+   - input12 sky130_fd_sc_hd__clkbuf_1 
+      + PLACED ( 31740 65280 ) N ;
+   - input13 sky130_fd_sc_hd__clkbuf_1 
+      + PLACED ( 33120 65280 ) N ;
+   - input14 sky130_fd_sc_hd__clkbuf_1 
+      + PLACED ( 36340 65280 ) FN ;
+   - input15 sky130_fd_sc_hd__clkbuf_1 
+      + PLACED ( 39560 65280 ) FN ;
+   - input16 sky130_fd_sc_hd__clkbuf_1 
+      + PLACED ( 42780 65280 ) FN ;
+   - input17 sky130_fd_sc_hd__clkbuf_1 
+      + PLACED ( 46000 65280 ) N ;
+   - input18 sky130_fd_sc_hd__clkbuf_1 
+      + PLACED ( 49220 65280 ) FN ;
+   - input19 sky130_fd_sc_hd__clkbuf_1 
+      + PLACED ( 6900 65280 ) FN ;
+   - input2 sky130_fd_sc_hd__clkbuf_1 
+      + PLACED ( 53360 10880 ) FN ;
+   - input20 sky130_fd_sc_hd__clkbuf_1 
+      + PLACED ( 52440 65280 ) N ;
+   - input21 sky130_fd_sc_hd__clkbuf_1 
+      + PLACED ( 55660 65280 ) N ;
+   - input22 sky130_fd_sc_hd__clkbuf_1 
+      + PLACED ( 58880 65280 ) FN ;
+   - input23 sky130_fd_sc_hd__clkbuf_1 
+      + PLACED ( 61180 65280 ) N ;
+   - input24 sky130_fd_sc_hd__clkbuf_1 
+      + PLACED ( 61180 62560 ) FS ;
+   - input25 sky130_fd_sc_hd__clkbuf_1 
+      + PLACED ( 9200 10880 ) N ;
+   - input26 sky130_fd_sc_hd__clkbuf_1 
+      + PLACED ( 7820 10880 ) FN ;
+   - input27 sky130_fd_sc_hd__clkbuf_1 
+      + PLACED ( 11960 10880 ) FN ;
+   - input28 sky130_fd_sc_hd__clkbuf_1 
+      + PLACED ( 16100 10880 ) FN ;
+   - input29 sky130_fd_sc_hd__clkbuf_1 
+      + PLACED ( 19780 10880 ) FN ;
+   - input3 sky130_fd_sc_hd__clkbuf_1 
+      + PLACED ( 57500 10880 ) N ;
+   - input30 sky130_fd_sc_hd__clkbuf_1 
+      + PLACED ( 21160 10880 ) FN ;
+   - input31 sky130_fd_sc_hd__clkbuf_1 
+      + PLACED ( 31740 13600 ) FS ;
+   - input32 sky130_fd_sc_hd__clkbuf_1 
+      + PLACED ( 29900 10880 ) FN ;
+   - input33 sky130_fd_sc_hd__clkbuf_1 
+      + PLACED ( 10580 62560 ) S ;
+   - input34 sky130_fd_sc_hd__clkbuf_1 
+      + PLACED ( 39100 10880 ) N ;
+   - input35 sky130_fd_sc_hd__clkbuf_1 
+      + PLACED ( 40940 10880 ) N ;
+   - input36 sky130_fd_sc_hd__clkbuf_1 
+      + PLACED ( 45080 10880 ) FN ;
+   - input4 sky130_fd_sc_hd__clkbuf_1 
+      + PLACED ( 61180 10880 ) N ;
+   - input5 sky130_fd_sc_hd__clkbuf_1 
+      + PLACED ( 59800 10880 ) N ;
+   - input6 sky130_fd_sc_hd__clkbuf_1 
+      + PLACED ( 15640 65280 ) N ;
+   - input7 sky130_fd_sc_hd__clkbuf_1 
+      + PLACED ( 17020 65280 ) FN ;
+   - input8 sky130_fd_sc_hd__clkbuf_1 
+      + PLACED ( 19780 65280 ) FN ;
+   - input9 sky130_fd_sc_hd__clkbuf_1 
+      + PLACED ( 8280 62560 ) FS ;
+   - output37 sky130_fd_sc_hd__buf_1 
+      + PLACED ( 6900 13600 ) S ;
+   - output38 sky130_fd_sc_hd__buf_1 
+      + PLACED ( 6900 19040 ) S ;
+   - output39 sky130_fd_sc_hd__buf_1 
+      + PLACED ( 6900 29920 ) S ;
+   - output40 sky130_fd_sc_hd__buf_1 
+      + PLACED ( 6900 40800 ) S ;
+   - output41 sky130_fd_sc_hd__buf_1 
+      + PLACED ( 6900 51680 ) S ;
+   - output42 sky130_fd_sc_hd__buf_1 
+      + PLACED ( 6900 62560 ) S ;
+   - output43 sky130_fd_sc_hd__buf_1 
+      + PLACED ( 11960 62560 ) S ;
+END COMPONENTS
+
+PINS 46 ;
+   - N102_d + NET N102_d
+      + DIRECTION INPUT
+      + USE SIGNAL ;
+   - N105_d + NET N105_d
+      + DIRECTION INPUT
+      + USE SIGNAL ;
+   - N108_d + NET N108_d
+      + DIRECTION INPUT
+      + USE SIGNAL ;
+   - N112_d + NET N112_d
+      + DIRECTION INPUT
+      + USE SIGNAL ;
+   - N115_d + NET N115_d
+      + DIRECTION INPUT
+      + USE SIGNAL ;
+   - N11_d + NET N11_d
+      + DIRECTION INPUT
+      + USE SIGNAL ;
+   - N14_d + NET N14_d
+      + DIRECTION INPUT
+      + USE SIGNAL ;
+   - N17_d + NET N17_d
+      + DIRECTION INPUT
+      + USE SIGNAL ;
+   - N1_d + NET N1_d
+      + DIRECTION INPUT
+      + USE SIGNAL ;
+   - N21_d + NET N21_d
+      + DIRECTION INPUT
+      + USE SIGNAL ;
+   - N223_q + NET N223_q
+      + DIRECTION OUTPUT
+      + USE SIGNAL ;
+   - N24_d + NET N24_d
+      + DIRECTION INPUT
+      + USE SIGNAL ;
+   - N27_d + NET N27_d
+      + DIRECTION INPUT
+      + USE SIGNAL ;
+   - N30_d + NET N30_d
+      + DIRECTION INPUT
+      + USE SIGNAL ;
+   - N329_q + NET N329_q
+      + DIRECTION OUTPUT
+      + USE SIGNAL ;
+   - N34_d + NET N34_d
+      + DIRECTION INPUT
+      + USE SIGNAL ;
+   - N370_q + NET N370_q
+      + DIRECTION OUTPUT
+      + USE SIGNAL ;
+   - N37_d + NET N37_d
+      + DIRECTION INPUT
+      + USE SIGNAL ;
+   - N40_d + NET N40_d
+      + DIRECTION INPUT
+      + USE SIGNAL ;
+   - N421_q + NET N421_q
+      + DIRECTION OUTPUT
+      + USE SIGNAL ;
+   - N430_q + NET N430_q
+      + DIRECTION OUTPUT
+      + USE SIGNAL ;
+   - N431_q + NET N431_q
+      + DIRECTION OUTPUT
+      + USE SIGNAL ;
+   - N432_q + NET N432_q
+      + DIRECTION OUTPUT
+      + USE SIGNAL ;
+   - N43_d + NET N43_d
+      + DIRECTION INPUT
+      + USE SIGNAL ;
+   - N47_d + NET N47_d
+      + DIRECTION INPUT
+      + USE SIGNAL ;
+   - N4_d + NET N4_d
+      + DIRECTION INPUT
+      + USE SIGNAL ;
+   - N50_d + NET N50_d
+      + DIRECTION INPUT
+      + USE SIGNAL ;
+   - N53_d + NET N53_d
+      + DIRECTION INPUT
+      + USE SIGNAL ;
+   - N56_d + NET N56_d
+      + DIRECTION INPUT
+      + USE SIGNAL ;
+   - N60_d + NET N60_d
+      + DIRECTION INPUT
+      + USE SIGNAL ;
+   - N63_d + NET N63_d
+      + DIRECTION INPUT
+      + USE SIGNAL ;
+   - N66_d + NET N66_d
+      + DIRECTION INPUT
+      + USE SIGNAL ;
+   - N69_d + NET N69_d
+      + DIRECTION INPUT
+      + USE SIGNAL ;
+   - N73_d + NET N73_d
+      + DIRECTION INPUT
+      + USE SIGNAL ;
+   - N76_d + NET N76_d
+      + DIRECTION INPUT
+      + USE SIGNAL ;
+   - N79_d + NET N79_d
+      + DIRECTION INPUT
+      + USE SIGNAL ;
+   - N82_d + NET N82_d
+      + DIRECTION INPUT
+      + USE SIGNAL ;
+   - N86_d + NET N86_d
+      + DIRECTION INPUT
+      + USE SIGNAL ;
+   - N89_d + NET N89_d
+      + DIRECTION INPUT
+      + USE SIGNAL ;
+   - N8_d + NET N8_d
+      + DIRECTION INPUT
+      + USE SIGNAL ;
+   - N92_d + NET N92_d
+      + DIRECTION INPUT
+      + USE SIGNAL ;
+   - N95_d + NET N95_d
+      + DIRECTION INPUT
+      + USE SIGNAL ;
+   - N99_d + NET N99_d
+      + DIRECTION INPUT
+      + USE SIGNAL ;
+   - VGND + NET VGND
+      + DIRECTION INOUT
+      + USE GROUND ;
+   - VPWR + NET VPWR
+      + DIRECTION INOUT
+      + USE POWER ;
+   - clk + NET clk
+      + DIRECTION INPUT
+      + USE SIGNAL ;
+END PINS
+
+NETS 198 ;
+   - N1 ( _133_ Q )  ( _111_ A1 )  ( _090_ A1 ) 
+ ( _078_ A1 ) 
+      + ROUTED li1 ( 13945 61415 ) ( 14115 62260 )
+      + ROUTED li1 ( 29585 53125 ) ( 29755 53325 )
+      + ROUTED li1 ( 25905 49955 ) ( 26075 50285 )
+      + ROUTED li1 ( 32345 53075 ) ( 32515 53325 )
+      + ROUTED met1 ( 13945 61640 ) ( 20010 61780 )
+      + ROUTED met1 ( 25990 53140 ) ( 32515 53280 )
+      + ROUTED met1 ( 20010 50080 ) ( 26075 50220 )
+      + ROUTED met2 ( 19940 50150 ) ( 20080 61710 )
+      + ROUTED met2 ( 25920 50150 ) ( 26060 53210 ) ;
+   - N102 ( _164_ Q )  ( _084_ A_N ) 
+      + ROUTED li1 ( 55345 13900 ) ( 55515 14745 )
+      + ROUTED li1 ( 54425 22525 ) ( 54595 23375 )
+      + ROUTED met1 ( 55345 14380 ) ( 55515 14520 )
+      + ROUTED met1 ( 54425 22880 ) ( 55430 23020 )
+      + ROUTED met2 ( 55360 14450 ) ( 55500 22950 ) ;
+   - N102_d ( PIN N102_d )  ( input1 A ) 
+      + ROUTED li1 ( 49365 11865 ) ( 49535 12235 )
+      + ROUTED met1 ( 48920 2000 ) ( 49060 2140 )
+      + ROUTED met1 ( 48990 12000 ) ( 49535 12140 )
+      + ROUTED met2 ( 48920 0 ) ( 49060 12070 ) ;
+   - N105 ( _165_ Q )  ( _131_ B2 )  ( _109_ C1 ) 
+      + ROUTED li1 ( 42005 25585 ) ( 42175 25755 )
+      + ROUTED li1 ( 49365 19340 ) ( 49535 20185 )
+      + ROUTED li1 ( 40165 22755 ) ( 40335 23085 )
+      + ROUTED met1 ( 45310 19820 ) ( 49535 19960 )
+      + ROUTED met1 ( 42005 25600 ) ( 43010 25740 )
+      + ROUTED met1 ( 40165 22880 ) ( 45310 23020 )
+      + ROUTED met2 ( 45240 19890 ) ( 45380 22950 )
+      + ROUTED met2 ( 42940 22950 ) ( 43080 25670 ) ;
+   - N105_d ( PIN N105_d )  ( input2 A ) 
+      + ROUTED li1 ( 53505 11865 ) ( 53675 12235 )
+      + ROUTED met1 ( 53060 2000 ) ( 53200 2140 )
+      + ROUTED met1 ( 53130 12000 ) ( 53675 12140 )
+      + ROUTED met2 ( 53060 0 ) ( 53200 12070 ) ;
+   - N108 ( _166_ Q )  ( _096_ A )  ( _084_ B ) 
+      + ROUTED li1 ( 47525 17895 ) ( 47695 18740 )
+      + ROUTED li1 ( 51205 28275 ) ( 51375 28525 )
+      + ROUTED li1 ( 53045 23405 ) ( 53215 23715 )
+      + ROUTED met1 ( 47525 18120 ) ( 49910 18260 )
+      + ROUTED met1 ( 51205 28320 ) ( 52670 28460 )
+      + ROUTED met1 ( 49910 23560 ) ( 53215 23700 )
+      + ROUTED met2 ( 49840 18190 ) ( 49980 23630 )
+      + ROUTED met2 ( 52600 23630 ) ( 52740 28390 ) ;
+   - N108_d ( PIN N108_d )  ( input3 A ) 
+      + ROUTED li1 ( 58565 11865 ) ( 58735 12235 )
+      + ROUTED met1 ( 57200 2000 ) ( 57730 2140 )
+      + ROUTED met1 ( 57730 12000 ) ( 58735 12140 )
+      + ROUTED met2 ( 57200 0 ) ( 57340 4000 )
+      + ROUTED met2 ( 57660 2070 ) ( 57800 12070 ) ;
+   - N11 ( _136_ Q )  ( _114_ A1 )  ( _089_ A1 ) 
+ ( _075_ A ) 
+      + ROUTED li1 ( 20845 62860 ) ( 21015 63705 )
+      + ROUTED li1 ( 30045 50035 ) ( 30215 50235 )
+      + ROUTED li1 ( 29125 55395 ) ( 29295 55725 )
+      + ROUTED li1 ( 31885 56485 ) ( 32055 56815 )
+      + ROUTED met1 ( 20845 63340 ) ( 24150 63480 )
+      + ROUTED met1 ( 30045 50080 ) ( 30215 50220 )
+      + ROUTED met1 ( 24150 55520 ) ( 31970 55660 )
+      + ROUTED met1 ( 31885 56540 ) ( 32055 56680 )
+      + ROUTED met2 ( 24080 55590 ) ( 24220 63410 )
+      + ROUTED met2 ( 31900 55590 ) ( 32040 56610 )
+      + ROUTED met2 ( 30060 50150 ) ( 30200 55590 ) ;
+   - N112 ( _167_ Q )  ( _112_ A1 )  ( _099_ A ) 
+ ( _063_ A1 ) 
+      + ROUTED li1 ( 54885 17895 ) ( 55055 18740 )
+      + ROUTED li1 ( 40625 33635 ) ( 40795 33965 )
+      + ROUTED li1 ( 45685 31315 ) ( 45855 31875 )
+      + ROUTED li1 ( 42465 31365 ) ( 42635 31565 )
+      + ROUTED met1 ( 54885 18120 ) ( 55055 18260 )
+      + ROUTED met1 ( 40625 33760 ) ( 40795 33900 )
+      + ROUTED met1 ( 43930 31720 ) ( 54970 31860 )
+      + ROUTED met1 ( 40710 31380 ) ( 43930 31520 )
+      + ROUTED met2 ( 54900 18190 ) ( 55040 31790 )
+      + ROUTED met2 ( 43860 31450 ) ( 44000 31790 )
+      + ROUTED met2 ( 40640 31450 ) ( 40780 33830 ) ;
+   - N112_d ( PIN N112_d )  ( input4 A ) 
+      + ROUTED li1 ( 62245 11865 ) ( 62415 12235 )
+      + ROUTED met1 ( 61340 2000 ) ( 61870 2140 )
+      + ROUTED met1 ( 61870 12000 ) ( 62415 12140 )
+      + ROUTED met2 ( 61340 0 ) ( 61480 4000 )
+      + ROUTED met2 ( 61800 2070 ) ( 61940 12070 ) ;
+   - N115 ( _168_ Q )  ( _112_ C1 )  ( _063_ B2 ) 
+      + ROUTED li1 ( 54885 23335 ) ( 55055 24180 )
+      + ROUTED li1 ( 42005 33635 ) ( 42175 33965 )
+      + ROUTED li1 ( 43845 31365 ) ( 44015 31565 )
+      + ROUTED met1 ( 53590 23560 ) ( 55055 23700 )
+      + ROUTED met1 ( 42005 33760 ) ( 42175 33900 )
+      + ROUTED met1 ( 42090 31380 ) ( 53590 31520 )
+      + ROUTED met2 ( 53520 23630 ) ( 53660 31450 )
+      + ROUTED met2 ( 42020 31450 ) ( 42160 33830 ) ;
+   - N115_d ( PIN N115_d )  ( input5 A ) 
+      + ROUTED li1 ( 60865 11865 ) ( 61035 12235 )
+      + ROUTED met1 ( 63250 2000 ) ( 65620 2140 )
+      + ROUTED met1 ( 60865 12000 ) ( 63250 12140 )
+      + ROUTED met2 ( 65480 0 ) ( 65620 4000 )
+      + ROUTED met2 ( 63180 2070 ) ( 63320 12070 ) ;
+   - N11_d ( PIN N11_d )  ( input6 A ) 
+      + ROUTED li1 ( 16705 66265 ) ( 16875 66635 )
+      + ROUTED met1 ( 13500 78360 ) ( 13640 78500 )
+      + ROUTED met1 ( 13570 66400 ) ( 16875 66540 )
+      + ROUTED met2 ( 13500 66470 ) ( 13640 80215 ) ;
+   - N14 ( _137_ Q )  ( _113_ A1 )  ( _065_ A1 ) 
+      + ROUTED li1 ( 25905 45095 ) ( 26075 45940 )
+      + ROUTED li1 ( 31885 39355 ) ( 32055 39695 )
+      + ROUTED li1 ( 28665 44534 ) ( 28835 44845 )
+      + ROUTED met1 ( 25905 45320 ) ( 27830 45460 )
+      + ROUTED met1 ( 30130 39540 ) ( 32055 39680 )
+      + ROUTED met1 ( 27830 44640 ) ( 30130 44780 )
+      + ROUTED met2 ( 27760 44710 ) ( 27900 45390 )
+      + ROUTED met2 ( 30060 39610 ) ( 30200 44710 ) ;
+   - N14_d ( PIN N14_d )  ( input7 A ) 
+      + ROUTED li1 ( 17165 66265 ) ( 17335 66635 )
+      + ROUTED met1 ( 16720 78360 ) ( 16860 78500 )
+      + ROUTED met1 ( 16790 66400 ) ( 17335 66540 )
+      + ROUTED met2 ( 16720 66470 ) ( 16860 80215 ) ;
+   - N17 ( _138_ Q )  ( _088_ A )  ( _075_ B_N ) 
+      + ROUTED li1 ( 25905 57420 ) ( 26075 58265 )
+      + ROUTED li1 ( 24065 50035 ) ( 24235 50285 )
+      + ROUTED li1 ( 30965 55475 ) ( 31135 55725 )
+      + ROUTED met1 ( 25070 57900 ) ( 29210 58040 )
+      + ROUTED met1 ( 24065 50080 ) ( 25070 50220 )
+      + ROUTED met1 ( 29210 55520 ) ( 31135 55660 )
+      + ROUTED met2 ( 29140 55590 ) ( 29280 57970 )
+      + ROUTED met2 ( 25000 50150 ) ( 25140 57970 ) ;
+   - N17_d ( PIN N17_d )  ( input8 A ) 
+      + ROUTED li1 ( 19925 66265 ) ( 20095 66635 )
+      + ROUTED met1 ( 19940 78360 ) ( 20080 78500 )
+      + ROUTED met1 ( 19925 66400 ) ( 20095 66540 )
+      + ROUTED met2 ( 19940 66470 ) ( 20080 80215 ) ;
+   - N1_d ( PIN N1_d )  ( input9 A ) 
+      + ROUTED li1 ( 9345 63925 ) ( 9515 64295 )
+      + ROUTED met1 ( 3840 78360 ) ( 6670 78500 )
+      + ROUTED met1 ( 6670 64020 ) ( 9515 64160 )
+      + ROUTED met2 ( 3840 76215 ) ( 3980 80215 )
+      + ROUTED met2 ( 6600 64090 ) ( 6740 78430 ) ;
+   - N203 ( _169_ D )  ( _115_ A2 )  ( _114_ A2 ) 
+ ( _111_ A2 )  ( _108_ A2 )  ( _103_ A2 )  ( _093_ A2 ) 
+ ( _090_ A2 )  ( _089_ A2 )  ( _087_ A2 )  ( _086_ X ) 
+      + ROUTED li1 ( 29125 20500 ) ( 29295 21045 )
+      + ROUTED li1 ( 36485 36755 ) ( 36655 37085 )
+      + ROUTED li1 ( 30505 50035 ) ( 30675 50235 )
+      + ROUTED li1 ( 30045 53125 ) ( 30215 53325 )
+      + ROUTED li1 ( 47065 22755 ) ( 47235 23085 )
+      + ROUTED li1 ( 43845 28195 ) ( 44015 28525 )
+      + ROUTED li1 ( 45225 52785 ) ( 45395 53405 )
+      + ROUTED li1 ( 26365 49955 ) ( 26535 50285 )
+      + ROUTED li1 ( 29585 55395 ) ( 29755 55725 )
+      + ROUTED li1 ( 35105 55395 ) ( 35275 56015 )
+      + ROUTED li1 ( 44305 35615 ) ( 44475 36520 )
+      + ROUTED met1 ( 29125 20500 ) ( 47150 20640 )
+      + ROUTED met1 ( 36485 36820 ) ( 42090 36960 )
+      + ROUTED met1 ( 26365 50080 ) ( 30675 50220 )
+      + ROUTED met1 ( 29670 53140 ) ( 30215 53280 )
+      + ROUTED met1 ( 41630 53140 ) ( 45395 53280 )
+      + ROUTED met1 ( 47065 22880 ) ( 47235 23020 )
+      + ROUTED met1 ( 43845 28320 ) ( 47150 28460 )
+      + ROUTED met1 ( 29585 55520 ) ( 29755 55660 )
+      + ROUTED met1 ( 29670 55860 ) ( 41630 56000 )
+      + ROUTED met1 ( 42090 35800 ) ( 44475 35940 )
+      + ROUTED met2 ( 47080 20570 ) ( 47220 28390 )
+      + ROUTED met2 ( 43860 28390 ) ( 44000 35870 )
+      + ROUTED met2 ( 42020 35870 ) ( 42160 36890 )
+      + ROUTED met2 ( 44320 35870 ) ( 44460 53210 )
+      + ROUTED met2 ( 41560 53210 ) ( 41700 55930 )
+      + ROUTED met2 ( 29600 53210 ) ( 29740 55930 )
+      + ROUTED met2 ( 30060 50150 ) ( 30200 53210 ) ;
+   - N21 ( _139_ Q )  ( _114_ B2 )  ( _089_ B1 ) 
+      + ROUTED li1 ( 27745 61415 ) ( 27915 62260 )
+      + ROUTED li1 ( 28665 50035 ) ( 28835 50235 )
+      + ROUTED li1 ( 28205 55395 ) ( 28375 55725 )
+      + ROUTED met1 ( 27745 61640 ) ( 28290 61780 )
+      + ROUTED met1 ( 28665 50080 ) ( 28835 50220 )
+      + ROUTED met1 ( 28205 55520 ) ( 28750 55660 )
+      + ROUTED met2 ( 28220 55590 ) ( 28360 61710 )
+      + ROUTED met2 ( 28680 50150 ) ( 28820 55590 ) ;
+   - N21_d ( PIN N21_d )  ( input10 A ) 
+      + ROUTED li1 ( 22225 66265 ) ( 22395 66635 )
+      + ROUTED met1 ( 22770 78360 ) ( 23300 78500 )
+      + ROUTED met1 ( 22225 66400 ) ( 22770 66540 )
+      + ROUTED met2 ( 23160 76215 ) ( 23300 80215 )
+      + ROUTED met2 ( 22700 66470 ) ( 22840 78430 ) ;
+   - N223_q ( PIN N223_q )  ( output37 X ) 
+      + ROUTED li1 ( 7045 13855 ) ( 7215 14760 )
+      + ROUTED met1 ( 1630 7240 ) ( 4370 7380 )
+      + ROUTED met1 ( 4370 14380 ) ( 7215 14520 )
+      + ROUTED met2 ( 1630 7070 ) ( 1770 7380 )
+      + ROUTED met2 ( 4300 7310 ) ( 4440 14450 )
+      + ROUTED met3 ( 0 6990 ) ( 4000 7290 ) ;
+   - N24 ( _140_ Q )  ( _087_ A1 )  ( _077_ A ) 
+      + ROUTED li1 ( 30965 62860 ) ( 31135 63705 )
+      + ROUTED li1 ( 35565 55395 ) ( 35735 56015 )
+      + ROUTED li1 ( 38785 56485 ) ( 38955 56815 )
+      + ROUTED met1 ( 30965 63340 ) ( 35190 63480 )
+      + ROUTED met1 ( 35190 55520 ) ( 37030 55660 )
+      + ROUTED met1 ( 37030 56540 ) ( 38955 56680 )
+      + ROUTED met2 ( 35120 55590 ) ( 35260 63410 )
+      + ROUTED met2 ( 36960 55590 ) ( 37100 56610 ) ;
+   - N24_d ( PIN N24_d )  ( input11 A ) 
+      + ROUTED li1 ( 22685 66265 ) ( 22855 66635 )
+      + ROUTED met1 ( 24610 78360 ) ( 26520 78500 )
+      + ROUTED met1 ( 22685 66400 ) ( 24610 66540 )
+      + ROUTED met2 ( 26380 76215 ) ( 26520 80215 )
+      + ROUTED met2 ( 24540 66470 ) ( 24680 78430 ) ;
+   - N27 ( _141_ Q )  ( _125_ A1 )  ( _118_ A1 ) 
+      + ROUTED li1 ( 30965 66855 ) ( 31135 67700 )
+      + ROUTED li1 ( 32805 42195 ) ( 32975 42525 )
+      + ROUTED li1 ( 29585 42245 ) ( 29755 42445 )
+      + ROUTED met1 ( 30590 67420 ) ( 31135 67560 )
+      + ROUTED met1 ( 29585 42260 ) ( 32975 42400 )
+      + ROUTED met2 ( 30520 42330 ) ( 30660 67490 ) ;
+   - N27_d ( PIN N27_d )  ( input12 A ) 
+      + ROUTED li1 ( 32805 66265 ) ( 32975 66635 )
+      + ROUTED met1 ( 29600 78360 ) ( 31050 78500 )
+      + ROUTED met1 ( 31050 66400 ) ( 32975 66540 )
+      + ROUTED met2 ( 29600 76215 ) ( 29740 80215 )
+      + ROUTED met2 ( 30980 66470 ) ( 31120 78430 ) ;
+   - N30 ( _142_ Q )  ( _087_ B1_N )  ( _077_ B_N ) 
+      + ROUTED li1 ( 37405 54725 ) ( 37575 56065 )
+      + ROUTED li1 ( 37405 61415 ) ( 37575 62260 )
+      + ROUTED li1 ( 37865 55475 ) ( 38035 55725 )
+      + ROUTED met1 ( 37405 61640 ) ( 37575 61780 )
+      + ROUTED met1 ( 37405 55180 ) ( 37575 55320 )
+      + ROUTED met1 ( 37490 55520 ) ( 38035 55660 )
+      + ROUTED met2 ( 37420 55250 ) ( 37560 61710 ) ;
+   - N309 ( _170_ D )  ( _132_ A2 )  ( _131_ A2 ) 
+ ( _130_ A2 )  ( _120_ A2 )  ( _117_ A2 )  ( _112_ A2 ) 
+ ( _109_ A2 )  ( _107_ A2 )  ( _106_ X )  ( _063_ A2 ) 
+      + ROUTED li1 ( 43385 25585 ) ( 43555 25755 )
+      + ROUTED li1 ( 31885 22475 ) ( 32055 23020 )
+      + ROUTED li1 ( 34185 31365 ) ( 34355 31565 )
+      + ROUTED li1 ( 25445 36755 ) ( 25615 37085 )
+      + ROUTED li1 ( 42465 44515 ) ( 42635 44845 )
+      + ROUTED li1 ( 32805 33635 ) ( 32975 33965 )
+      + ROUTED li1 ( 40165 33635 ) ( 40335 33965 )
+      + ROUTED li1 ( 42005 22755 ) ( 42175 23085 )
+      + ROUTED li1 ( 42005 31365 ) ( 42175 31565 )
+      + ROUTED li1 ( 36945 47635 ) ( 37115 47965 )
+      + ROUTED li1 ( 39705 35615 ) ( 39875 36520 )
+      + ROUTED met1 ( 31885 22880 ) ( 43930 23020 )
+      + ROUTED met1 ( 32890 31380 ) ( 34355 31520 )
+      + ROUTED met1 ( 41170 31380 ) ( 44390 31520 )
+      + ROUTED met1 ( 43385 25600 ) ( 44390 25740 )
+      + ROUTED met1 ( 25445 36820 ) ( 25615 36960 )
+      + ROUTED met1 ( 37030 44640 ) ( 42635 44780 )
+      + ROUTED met1 ( 25530 33760 ) ( 41170 33900 )
+      + ROUTED met1 ( 36945 47700 ) ( 37115 47840 )
+      + ROUTED met1 ( 38870 36140 ) ( 40250 36280 )
+      + ROUTED met2 ( 43860 22950 ) ( 44000 25670 )
+      + ROUTED met2 ( 44320 25670 ) ( 44460 31450 )
+      + ROUTED met2 ( 41100 31450 ) ( 41240 33830 )
+      + ROUTED met2 ( 40180 33830 ) ( 40320 36210 )
+      + ROUTED met2 ( 32820 31450 ) ( 32960 33830 )
+      + ROUTED met2 ( 25460 33830 ) ( 25600 36890 )
+      + ROUTED met2 ( 38800 36210 ) ( 38940 44710 )
+      + ROUTED met2 ( 36960 44710 ) ( 37100 47770 ) ;
+   - N30_d ( PIN N30_d )  ( input13 A ) 
+      + ROUTED li1 ( 34185 66265 ) ( 34355 66635 )
+      + ROUTED met1 ( 32820 78360 ) ( 33350 78500 )
+      + ROUTED met1 ( 33350 66400 ) ( 34355 66540 )
+      + ROUTED met2 ( 32820 76215 ) ( 32960 80215 )
+      + ROUTED met2 ( 33280 66470 ) ( 33420 78430 ) ;
+   - N329_q ( PIN N329_q )  ( output38 X ) 
+      + ROUTED li1 ( 7045 19295 ) ( 7215 20200 )
+      + ROUTED met1 ( 1630 18120 ) ( 4370 18260 )
+      + ROUTED met1 ( 4370 19820 ) ( 7215 19960 )
+      + ROUTED met2 ( 1630 17950 ) ( 1770 18260 )
+      + ROUTED met2 ( 4300 18190 ) ( 4440 19890 )
+      + ROUTED met3 ( 0 17870 ) ( 4000 18170 ) ;
+   - N34 ( _143_ Q )  ( _107_ A1 )  ( _091_ A1 ) 
+      + ROUTED li1 ( 33265 62860 ) ( 33435 63705 )
+      + ROUTED li1 ( 37405 47635 ) ( 37575 47946 )
+      + ROUTED li1 ( 33725 50035 ) ( 33895 50235 )
+      + ROUTED met1 ( 33265 63000 ) ( 33435 63140 )
+      + ROUTED met1 ( 37405 47700 ) ( 37575 47840 )
+      + ROUTED met1 ( 33350 50080 ) ( 37490 50220 )
+      + ROUTED met2 ( 33280 50150 ) ( 33420 63070 )
+      + ROUTED met2 ( 37420 47770 ) ( 37560 50150 ) ;
+   - N34_d ( PIN N34_d )  ( input14 A ) 
+      + ROUTED li1 ( 36485 66265 ) ( 36655 66635 )
+      + ROUTED met1 ( 36040 78360 ) ( 36180 78500 )
+      + ROUTED met1 ( 36110 66400 ) ( 36655 66540 )
+      + ROUTED met2 ( 36040 66470 ) ( 36180 80215 ) ;
+   - N360 ( _171_ D )  ( _132_ B1 )  ( _131_ B1 ) 
+ ( _130_ B1 )  ( _127_ A2 )  ( _126_ A2 )  ( _125_ A2 ) 
+ ( _124_ A2 )  ( _123_ Y )  ( _065_ A2 )  ( _063_ B1 ) 
+      + ROUTED li1 ( 12565 25535 ) ( 12735 26485 )
+      + ROUTED li1 ( 35105 31365 ) ( 35275 31565 )
+      + ROUTED li1 ( 42005 25925 ) ( 42175 26125 )
+      + ROUTED li1 ( 26365 36795 ) ( 26535 37005 )
+      + ROUTED li1 ( 31885 44515 ) ( 32055 44865 )
+      + ROUTED li1 ( 41085 44980 ) ( 41255 45195 )
+      + ROUTED li1 ( 41085 47635 ) ( 41255 47965 )
+      + ROUTED li1 ( 33265 42195 ) ( 33435 42525 )
+      + ROUTED li1 ( 34185 41055 ) ( 34355 41855 )
+      + ROUTED li1 ( 29125 44515 ) ( 29295 44845 )
+      + ROUTED li1 ( 42925 31365 ) ( 43095 31565 )
+      + ROUTED met1 ( 12565 25600 ) ( 12735 25740 )
+      + ROUTED met1 ( 35105 31380 ) ( 43095 31520 )
+      + ROUTED met1 ( 42005 25940 ) ( 43010 26080 )
+      + ROUTED met1 ( 12650 36820 ) ( 29210 36960 )
+      + ROUTED met1 ( 29125 44640 ) ( 32055 44780 )
+      + ROUTED met1 ( 41085 47700 ) ( 41255 47840 )
+      + ROUTED met1 ( 31970 42260 ) ( 33810 42400 )
+      + ROUTED met1 ( 31970 44980 ) ( 41255 45120 )
+      + ROUTED met1 ( 33810 41240 ) ( 35190 41380 )
+      + ROUTED met2 ( 12580 25670 ) ( 12720 36890 )
+      + ROUTED met2 ( 29140 36890 ) ( 29280 44710 )
+      + ROUTED met2 ( 31900 42330 ) ( 32040 45050 )
+      + ROUTED met2 ( 33740 41310 ) ( 33880 42330 )
+      + ROUTED met2 ( 41100 45050 ) ( 41240 47770 )
+      + ROUTED met2 ( 35120 31450 ) ( 35260 41310 )
+      + ROUTED met2 ( 42940 26010 ) ( 43080 31450 ) ;
+   - N37 ( _144_ Q )  ( _093_ A1 )  ( _080_ A ) 
+      + ROUTED li1 ( 51665 61415 ) ( 51835 62260 )
+      + ROUTED li1 ( 45685 52785 ) ( 45855 53405 )
+      + ROUTED li1 ( 49365 51045 ) ( 49535 51375 )
+      + ROUTED met1 ( 50370 61640 ) ( 51835 61780 )
+      + ROUTED met1 ( 45685 53140 ) ( 48530 53280 )
+      + ROUTED met1 ( 48530 51100 ) ( 50370 51240 )
+      + ROUTED met2 ( 50300 51170 ) ( 50440 61710 )
+      + ROUTED met2 ( 48460 51170 ) ( 48600 53210 ) ;
+   - N370_q ( PIN N370_q )  ( output39 X ) 
+      + ROUTED li1 ( 7045 30175 ) ( 7215 31080 )
+      + ROUTED met1 ( 1630 29000 ) ( 4370 29140 )
+      + ROUTED met1 ( 4370 30700 ) ( 7215 30840 )
+      + ROUTED met2 ( 1630 28830 ) ( 1770 29140 )
+      + ROUTED met2 ( 4300 29070 ) ( 4440 30770 )
+      + ROUTED met3 ( 0 28750 ) ( 4000 29050 ) ;
+   - N37_d ( PIN N37_d )  ( input15 A ) 
+      + ROUTED li1 ( 39705 66265 ) ( 39875 66635 )
+      + ROUTED met1 ( 39260 78360 ) ( 39400 78500 )
+      + ROUTED met1 ( 39330 66400 ) ( 39875 66540 )
+      + ROUTED met2 ( 39260 66470 ) ( 39400 80215 ) ;
+   - N4 ( _134_ Q )  ( _074_ A ) 
+      + ROUTED li1 ( 15325 66855 ) ( 15495 67700 )
+      + ROUTED li1 ( 17625 58515 ) ( 17795 58765 )
+      + ROUTED met1 ( 15325 67420 ) ( 16330 67560 )
+      + ROUTED met1 ( 16330 58580 ) ( 17795 58720 )
+      + ROUTED met2 ( 16260 58650 ) ( 16400 67490 ) ;
+   - N40 ( _145_ Q )  ( _124_ A1 )  ( _110_ A1 ) 
+      + ROUTED li1 ( 40625 62860 ) ( 40795 63705 )
+      + ROUTED li1 ( 41085 44515 ) ( 41255 44845 )
+      + ROUTED li1 ( 41545 41905 ) ( 41715 42245 )
+      + ROUTED met1 ( 40625 63340 ) ( 41170 63480 )
+      + ROUTED met1 ( 41085 44640 ) ( 41630 44780 )
+      + ROUTED met1 ( 41545 41920 ) ( 41715 42060 )
+      + ROUTED met2 ( 41100 44710 ) ( 41240 63410 )
+      + ROUTED met2 ( 41560 41990 ) ( 41700 44710 ) ;
+   - N40_d ( PIN N40_d )  ( input16 A ) 
+      + ROUTED li1 ( 42925 66265 ) ( 43095 66635 )
+      + ROUTED met1 ( 42480 78360 ) ( 42620 78500 )
+      + ROUTED met1 ( 42550 66400 ) ( 43095 66540 )
+      + ROUTED met2 ( 42480 66470 ) ( 42620 80215 ) ;
+   - N421 ( _172_ D )  ( _066_ X ) 
+      + ROUTED li1 ( 12565 38795 ) ( 12735 39745 )
+      + ROUTED li1 ( 23145 39535 ) ( 23315 40545 )
+      + ROUTED met1 ( 12565 39200 ) ( 17710 39340 )
+      + ROUTED met1 ( 17710 39880 ) ( 23315 40020 )
+      + ROUTED met2 ( 17640 39270 ) ( 17780 39950 ) ;
+   - N421_q ( PIN N421_q )  ( output40 X ) 
+      + ROUTED li1 ( 7045 41055 ) ( 7215 41960 )
+      + ROUTED met1 ( 1630 39880 ) ( 4370 40020 )
+      + ROUTED met1 ( 4370 41580 ) ( 7215 41720 )
+      + ROUTED met2 ( 1630 39710 ) ( 1770 40020 )
+      + ROUTED met2 ( 4300 39950 ) ( 4440 41650 )
+      + ROUTED met3 ( 0 39630 ) ( 4000 39930 ) ;
+   - N43 ( _146_ Q )  ( _093_ B1_N )  ( _080_ B_N ) 
+      + ROUTED li1 ( 51205 57420 ) ( 51375 58265 )
+      + ROUTED li1 ( 47525 52735 ) ( 47695 54075 )
+      + ROUTED li1 ( 50285 50035 ) ( 50455 50285 )
+      + ROUTED met1 ( 49450 57900 ) ( 51375 58040 )
+      + ROUTED met1 ( 47525 53480 ) ( 49450 53620 )
+      + ROUTED met1 ( 48990 50080 ) ( 50455 50220 )
+      + ROUTED met2 ( 49380 53550 ) ( 49520 57970 )
+      + ROUTED met2 ( 48920 50150 ) ( 49060 53550 ) ;
+   - N430 ( _173_ D )  ( _129_ X )  ( _066_ A1 ) 
+      + ROUTED li1 ( 12565 44235 ) ( 12735 45185 )
+      + ROUTED li1 ( 24525 46495 ) ( 24695 47400 )
+      + ROUTED li1 ( 26825 39155 ) ( 26995 39405 )
+      + ROUTED met1 ( 12565 44640 ) ( 20930 44780 )
+      + ROUTED met1 ( 20930 47020 ) ( 26450 47160 )
+      + ROUTED met1 ( 26450 39200 ) ( 26995 39340 )
+      + ROUTED met2 ( 20860 44710 ) ( 21000 47090 )
+      + ROUTED met2 ( 26380 39270 ) ( 26520 47090 ) ;
+   - N430_q ( PIN N430_q )  ( output41 X ) 
+      + ROUTED li1 ( 7045 51935 ) ( 7215 52840 )
+      + ROUTED met1 ( 1630 50760 ) ( 4370 50900 )
+      + ROUTED met1 ( 4370 52460 ) ( 7215 52600 )
+      + ROUTED met2 ( 1630 50590 ) ( 1770 50900 )
+      + ROUTED met2 ( 4300 50830 ) ( 4440 52530 )
+      + ROUTED met3 ( 0 50510 ) ( 4000 50810 ) ;
+   - N431 ( _174_ D )  ( _070_ X ) 
+      + ROUTED li1 ( 12565 58175 ) ( 12735 59125 )
+      + ROUTED li1 ( 13485 50520 ) ( 13655 51425 )
+      + ROUTED met1 ( 12565 58580 ) ( 13110 58720 )
+      + ROUTED met1 ( 13110 50760 ) ( 13655 50900 )
+      + ROUTED met2 ( 13040 50830 ) ( 13180 58650 ) ;
+   - N431_q ( PIN N431_q )  ( output42 X ) 
+      + ROUTED li1 ( 7045 62815 ) ( 7215 63720 )
+      + ROUTED met1 ( 1630 61640 ) ( 4370 61780 )
+      + ROUTED met1 ( 4370 63340 ) ( 7215 63480 )
+      + ROUTED met2 ( 1630 61470 ) ( 1770 61780 )
+      + ROUTED met2 ( 4300 61710 ) ( 4440 63410 )
+      + ROUTED met3 ( 0 61390 ) ( 4000 61690 ) ;
+   - N432 ( _175_ D )  ( _073_ X ) 
+      + ROUTED li1 ( 12565 47295 ) ( 12735 48245 )
+      + ROUTED li1 ( 17165 41065 ) ( 17335 41835 )
+      + ROUTED met1 ( 12565 47700 ) ( 14950 47840 )
+      + ROUTED met1 ( 14950 41240 ) ( 17335 41380 )
+      + ROUTED met2 ( 14880 41310 ) ( 15020 47770 ) ;
+   - N432_q ( PIN N432_q )  ( output43 X ) 
+      + ROUTED li1 ( 12105 62815 ) ( 12275 63720 )
+      + ROUTED met1 ( 1630 72520 ) ( 6210 72660 )
+      + ROUTED met1 ( 6210 63000 ) ( 12275 63140 )
+      + ROUTED met2 ( 1630 72350 ) ( 1770 72660 )
+      + ROUTED met2 ( 6140 63070 ) ( 6280 72590 )
+      + ROUTED met3 ( 0 72270 ) ( 4000 72570 ) ;
+   - N43_d ( PIN N43_d )  ( input17 A ) 
+      + ROUTED li1 ( 47065 66265 ) ( 47235 66635 )
+      + ROUTED met1 ( 45700 78360 ) ( 46230 78500 )
+      + ROUTED met1 ( 46230 66400 ) ( 47235 66540 )
+      + ROUTED met2 ( 45700 76215 ) ( 45840 80215 )
+      + ROUTED met2 ( 46160 66470 ) ( 46300 78430 ) ;
+   - N47 ( _147_ Q )  ( _121_ A1 )  ( _094_ B2 ) 
+      + ROUTED li1 ( 47065 55975 ) ( 47235 56820 )
+      + ROUTED li1 ( 42465 49974 ) ( 42635 50285 )
+      + ROUTED li1 ( 46145 50035 ) ( 46315 50285 )
+      + ROUTED met1 ( 46690 56200 ) ( 47235 56340 )
+      + ROUTED met1 ( 42465 50080 ) ( 46690 50220 )
+      + ROUTED met2 ( 46620 50150 ) ( 46760 56270 ) ;
+   - N47_d ( PIN N47_d )  ( input18 A ) 
+      + ROUTED li1 ( 49365 66265 ) ( 49535 66635 )
+      + ROUTED met1 ( 48920 78360 ) ( 49060 78500 )
+      + ROUTED met1 ( 48990 66400 ) ( 49535 66540 )
+      + ROUTED met2 ( 48920 66470 ) ( 49060 80215 ) ;
+   - N4_d ( PIN N4_d )  ( input19 A ) 
+      + ROUTED li1 ( 7045 66265 ) ( 7215 66635 )
+      + ROUTED met1 ( 7060 78360 ) ( 7200 78500 )
+      + ROUTED met1 ( 7045 66400 ) ( 7215 66540 )
+      + ROUTED met2 ( 7060 66470 ) ( 7200 80215 ) ;
+   - N50 ( _148_ Q )  ( _092_ A1 )  ( _082_ A ) 
+      + ROUTED li1 ( 48905 46540 ) ( 49075 47385 )
+      + ROUTED li1 ( 48445 41905 ) ( 48615 42525 )
+      + ROUTED li1 ( 52125 41105 ) ( 52295 41435 )
+      + ROUTED met1 ( 48530 47020 ) ( 49075 47160 )
+      + ROUTED met1 ( 48445 42260 ) ( 50370 42400 )
+      + ROUTED met1 ( 50370 41240 ) ( 52295 41380 )
+      + ROUTED met2 ( 48460 42330 ) ( 48600 47090 )
+      + ROUTED met2 ( 50300 41310 ) ( 50440 42330 ) ;
+   - N50_d ( PIN N50_d )  ( input20 A ) 
+      + ROUTED li1 ( 53505 66265 ) ( 53675 66635 )
+      + ROUTED met1 ( 52140 78360 ) ( 52670 78500 )
+      + ROUTED met1 ( 52670 66400 ) ( 53675 66540 )
+      + ROUTED met2 ( 52140 76215 ) ( 52280 80215 )
+      + ROUTED met2 ( 52600 66470 ) ( 52740 78430 ) ;
+   - N53 ( _149_ Q )  ( _126_ A1 )  ( _122_ B2 ) 
+      + ROUTED li1 ( 49825 51980 ) ( 49995 52825 )
+      + ROUTED li1 ( 40625 47635 ) ( 40795 47965 )
+      + ROUTED li1 ( 38325 44845 ) ( 38495 45945 )
+      + ROUTED met1 ( 49450 52460 ) ( 49995 52600 )
+      + ROUTED met1 ( 40625 47700 ) ( 49450 47840 )
+      + ROUTED met1 ( 38325 45320 ) ( 40710 45460 )
+      + ROUTED met2 ( 49380 47770 ) ( 49520 52530 )
+      + ROUTED met2 ( 40640 45390 ) ( 40780 47770 ) ;
+   - N53_d ( PIN N53_d )  ( input21 A ) 
+      + ROUTED li1 ( 56725 66265 ) ( 56895 66635 )
+      + ROUTED met1 ( 55360 78360 ) ( 55890 78500 )
+      + ROUTED met1 ( 55890 66400 ) ( 56895 66540 )
+      + ROUTED met2 ( 55360 76215 ) ( 55500 80215 )
+      + ROUTED met2 ( 55820 66470 ) ( 55960 78430 ) ;
+   - N56 ( _150_ Q )  ( _092_ B1_N )  ( _082_ B_N ) 
+      + ROUTED li1 ( 53965 45095 ) ( 54135 45940 )
+      + ROUTED li1 ( 50285 41855 ) ( 50455 43195 )
+      + ROUTED li1 ( 53045 42195 ) ( 53215 42445 )
+      + ROUTED met1 ( 53590 45320 ) ( 54135 45460 )
+      + ROUTED met1 ( 50285 42600 ) ( 51750 42740 )
+      + ROUTED met1 ( 51750 42260 ) ( 53590 42400 )
+      + ROUTED met2 ( 53520 42330 ) ( 53660 45390 )
+      + ROUTED met2 ( 51680 42330 ) ( 51820 42670 ) ;
+   - N56_d ( PIN N56_d )  ( input22 A ) 
+      + ROUTED li1 ( 59025 66265 ) ( 59195 66635 )
+      + ROUTED met1 ( 58580 78360 ) ( 58720 78500 )
+      + ROUTED met1 ( 58650 66400 ) ( 59195 66540 )
+      + ROUTED met2 ( 58580 66470 ) ( 58720 80215 ) ;
+   - N60 ( _151_ Q )  ( _120_ A1 )  ( _094_ A1 ) 
+      + ROUTED li1 ( 54885 55975 ) ( 55055 56820 )
+      + ROUTED li1 ( 42925 44515 ) ( 43095 44845 )
+      + ROUTED li1 ( 47525 50035 ) ( 47695 50235 )
+      + ROUTED met1 ( 54050 56200 ) ( 55055 56340 )
+      + ROUTED met1 ( 42925 44640 ) ( 47610 44780 )
+      + ROUTED met1 ( 47525 50080 ) ( 54050 50220 )
+      + ROUTED met2 ( 53980 50150 ) ( 54120 56270 )
+      + ROUTED met2 ( 47540 44710 ) ( 47680 50150 ) ;
+   - N60_d ( PIN N60_d )  ( input23 A ) 
+      + ROUTED li1 ( 62245 66265 ) ( 62415 66635 )
+      + ROUTED met1 ( 61800 78360 ) ( 61940 78500 )
+      + ROUTED met1 ( 61870 66400 ) ( 62415 66540 )
+      + ROUTED met2 ( 61800 66470 ) ( 61940 80215 ) ;
+   - N63 ( _152_ Q )  ( _115_ A1 )  ( _100_ A1 ) 
+ ( _083_ A2 ) 
+      + ROUTED li1 ( 54885 39655 ) ( 55055 40500 )
+      + ROUTED li1 ( 36025 36755 ) ( 36195 37066 )
+      + ROUTED li1 ( 37405 33635 ) ( 37575 33965 )
+      + ROUTED li1 ( 47065 35710 ) ( 47235 36465 )
+      + ROUTED met1 ( 50830 39880 ) ( 55055 40020 )
+      + ROUTED met1 ( 36025 36820 ) ( 41170 36960 )
+      + ROUTED met1 ( 37030 33760 ) ( 37575 33900 )
+      + ROUTED met1 ( 41170 36140 ) ( 50830 36280 )
+      + ROUTED met2 ( 50760 36210 ) ( 50900 39950 )
+      + ROUTED met2 ( 41100 36210 ) ( 41240 36890 )
+      + ROUTED met2 ( 36960 33830 ) ( 37100 36890 ) ;
+   - N63_d ( PIN N63_d )  ( input24 A ) 
+      + ROUTED li1 ( 62245 63925 ) ( 62415 64295 )
+      + ROUTED met1 ( 63710 78360 ) ( 65160 78500 )
+      + ROUTED met1 ( 62245 64020 ) ( 63710 64160 )
+      + ROUTED met2 ( 65020 76215 ) ( 65160 80215 )
+      + ROUTED met2 ( 63640 64090 ) ( 63780 78430 ) ;
+   - N66 ( _153_ Q )  ( _127_ A1 )  ( _119_ A ) 
+      + ROUTED li1 ( 13945 34215 ) ( 14115 35060 )
+      + ROUTED li1 ( 32345 44515 ) ( 32515 44865 )
+      + ROUTED li1 ( 36945 36755 ) ( 37115 37005 )
+      + ROUTED met1 ( 13945 34440 ) ( 24610 34580 )
+      + ROUTED met1 ( 32345 44640 ) ( 32515 44780 )
+      + ROUTED met1 ( 24610 36820 ) ( 37115 36960 )
+      + ROUTED met2 ( 24540 34510 ) ( 24680 36890 )
+      + ROUTED met2 ( 32360 36890 ) ( 32500 44710 ) ;
+   - N66_d ( PIN N66_d )  ( input25 A ) 
+      + ROUTED li1 ( 10265 11865 ) ( 10435 12235 )
+      + ROUTED met1 ( 3380 2000 ) ( 6670 2140 )
+      + ROUTED met1 ( 6670 12000 ) ( 10435 12140 )
+      + ROUTED met2 ( 3380 0 ) ( 3520 4000 )
+      + ROUTED met2 ( 6600 2070 ) ( 6740 12070 ) ;
+   - N69 ( _154_ Q )  ( _079_ A ) 
+      + ROUTED li1 ( 17165 23335 ) ( 17335 24180 )
+      + ROUTED li1 ( 19005 28275 ) ( 19175 28525 )
+      + ROUTED met1 ( 17165 23560 ) ( 18170 23700 )
+      + ROUTED met1 ( 18170 28320 ) ( 19175 28460 )
+      + ROUTED met2 ( 18100 23630 ) ( 18240 28390 ) ;
+   - N69_d ( PIN N69_d )  ( input26 A ) 
+      + ROUTED li1 ( 7965 11865 ) ( 8135 12235 )
+      + ROUTED met1 ( 7520 2000 ) ( 7660 2140 )
+      + ROUTED met1 ( 7590 12000 ) ( 8135 12140 )
+      + ROUTED met2 ( 7520 0 ) ( 7660 12070 ) ;
+   - N73 ( _155_ Q )  ( _130_ A1 )  ( _116_ A1 ) 
+ ( _100_ B1 ) 
+      + ROUTED li1 ( 18085 28775 ) ( 18255 29620 )
+      + ROUTED li1 ( 25905 36795 ) ( 26075 37005 )
+      + ROUTED li1 ( 29585 36755 ) ( 29755 37085 )
+      + ROUTED li1 ( 36485 33635 ) ( 36655 33965 )
+      + ROUTED met1 ( 18085 29000 ) ( 21850 29140 )
+      + ROUTED met1 ( 21850 36820 ) ( 35650 36960 )
+      + ROUTED met1 ( 35650 33760 ) ( 36655 33900 )
+      + ROUTED met2 ( 21780 29070 ) ( 21920 36890 )
+      + ROUTED met2 ( 35580 33830 ) ( 35720 36890 ) ;
+   - N73_d ( PIN N73_d )  ( input27 A ) 
+      + ROUTED li1 ( 12105 11865 ) ( 12275 12235 )
+      + ROUTED met1 ( 11660 2000 ) ( 11800 2140 )
+      + ROUTED met1 ( 11730 12000 ) ( 12275 12140 )
+      + ROUTED met2 ( 11660 0 ) ( 11800 12070 ) ;
+   - N76 ( _156_ Q )  ( _095_ A1 )  ( _076_ A ) 
+      + ROUTED li1 ( 25905 23335 ) ( 26075 24180 )
+      + ROUTED li1 ( 34645 28195 ) ( 34815 28815 )
+      + ROUTED li1 ( 32805 24785 ) ( 32975 25115 )
+      + ROUTED met1 ( 25905 23560 ) ( 28750 23700 )
+      + ROUTED met1 ( 33810 28320 ) ( 34815 28460 )
+      + ROUTED met1 ( 28750 24920 ) ( 33810 25060 )
+      + ROUTED met2 ( 28680 23630 ) ( 28820 24990 )
+      + ROUTED met2 ( 33740 24990 ) ( 33880 28390 ) ;
+   - N76_d ( PIN N76_d )  ( input28 A ) 
+      + ROUTED li1 ( 16245 11865 ) ( 16415 12235 )
+      + ROUTED met1 ( 15800 2000 ) ( 15940 2140 )
+      + ROUTED met1 ( 15870 12000 ) ( 16415 12140 )
+      + ROUTED met2 ( 15800 0 ) ( 15940 12070 ) ;
+   - N79 ( _157_ Q )  ( _130_ B2 )  ( _116_ C1 ) 
+      + ROUTED li1 ( 26825 17895 ) ( 26995 18740 )
+      + ROUTED li1 ( 27285 36795 ) ( 27455 37005 )
+      + ROUTED li1 ( 28205 36755 ) ( 28375 37085 )
+      + ROUTED met1 ( 26450 18120 ) ( 26995 18260 )
+      + ROUTED met1 ( 26450 36820 ) ( 28375 36960 )
+      + ROUTED met2 ( 26380 18190 ) ( 26520 36890 ) ;
+   - N79_d ( PIN N79_d )  ( input29 A ) 
+      + ROUTED li1 ( 19925 11865 ) ( 20095 12235 )
+      + ROUTED met1 ( 19940 2000 ) ( 20080 2140 )
+      + ROUTED met1 ( 19925 12000 ) ( 20095 12140 )
+      + ROUTED met2 ( 19940 0 ) ( 20080 12070 ) ;
+   - N8 ( _135_ Q )  ( _111_ B2 )  ( _090_ B1 ) 
+      + ROUTED li1 ( 18085 55975 ) ( 18255 56820 )
+      + ROUTED li1 ( 28205 53125 ) ( 28375 53325 )
+      + ROUTED li1 ( 24985 49955 ) ( 25155 50285 )
+      + ROUTED met1 ( 18085 56200 ) ( 21390 56340 )
+      + ROUTED met1 ( 26450 53140 ) ( 28375 53280 )
+      + ROUTED met1 ( 21390 50080 ) ( 26450 50220 )
+      + ROUTED met2 ( 21320 50150 ) ( 21460 56270 )
+      + ROUTED met2 ( 26380 50150 ) ( 26520 53210 ) ;
+   - N82 ( _158_ Q )  ( _095_ B1_N )  ( _076_ B_N ) 
+      + ROUTED li1 ( 29585 12455 ) ( 29755 13300 )
+      + ROUTED li1 ( 32805 27525 ) ( 32975 28865 )
+      + ROUTED li1 ( 31885 25875 ) ( 32055 26125 )
+      + ROUTED met1 ( 29585 12680 ) ( 30130 12820 )
+      + ROUTED met1 ( 32430 27980 ) ( 32975 28120 )
+      + ROUTED met1 ( 30130 25940 ) ( 32430 26080 )
+      + ROUTED met2 ( 30060 12750 ) ( 30200 26010 )
+      + ROUTED met2 ( 32360 26010 ) ( 32500 28050 ) ;
+   - N82_d ( PIN N82_d )  ( input30 A ) 
+      + ROUTED li1 ( 21305 11865 ) ( 21475 12235 )
+      + ROUTED met1 ( 22310 2000 ) ( 24220 2140 )
+      + ROUTED met1 ( 21305 12000 ) ( 22310 12140 )
+      + ROUTED met2 ( 24080 0 ) ( 24220 4000 )
+      + ROUTED met2 ( 22240 2070 ) ( 22380 12070 ) ;
+   - N86 ( _159_ Q )  ( _132_ A1 )  ( _117_ A1 ) 
+ ( _104_ A1 ) 
+      + ROUTED li1 ( 30965 13900 ) ( 31135 14745 )
+      + ROUTED li1 ( 34645 31365 ) ( 34815 31565 )
+      + ROUTED li1 ( 33265 33635 ) ( 33435 33965 )
+      + ROUTED li1 ( 36945 30980 ) ( 37115 31565 )
+      + ROUTED met1 ( 30965 14040 ) ( 31970 14180 )
+      + ROUTED met1 ( 31970 31380 ) ( 34815 31520 )
+      + ROUTED met1 ( 33265 33760 ) ( 33435 33900 )
+      + ROUTED met1 ( 34270 31040 ) ( 37115 31180 )
+      + ROUTED met2 ( 31900 14110 ) ( 32040 31450 )
+      + ROUTED met2 ( 34200 31110 ) ( 34340 31450 )
+      + ROUTED met2 ( 33280 31450 ) ( 33420 33830 ) ;
+   - N86_d ( PIN N86_d )  ( input31 A ) 
+      + ROUTED li1 ( 32805 14965 ) ( 32975 15335 )
+      + ROUTED met1 ( 28220 2000 ) ( 30590 2140 )
+      + ROUTED met1 ( 30590 15060 ) ( 32975 15200 )
+      + ROUTED met2 ( 28220 0 ) ( 28360 4000 )
+      + ROUTED met2 ( 30520 2070 ) ( 30660 15130 ) ;
+   - N89 ( _160_ Q )  ( _108_ A1 )  ( _081_ A ) 
+      + ROUTED li1 ( 41085 17895 ) ( 41255 18740 )
+      + ROUTED li1 ( 46605 22774 ) ( 46775 23085 )
+      + ROUTED li1 ( 48445 23845 ) ( 48615 24175 )
+      + ROUTED met1 ( 41085 18120 ) ( 46230 18260 )
+      + ROUTED met1 ( 46230 22880 ) ( 47610 23020 )
+      + ROUTED met1 ( 47610 23900 ) ( 48615 24040 )
+      + ROUTED met2 ( 46160 18190 ) ( 46300 22950 )
+      + ROUTED met2 ( 47540 22950 ) ( 47680 23970 ) ;
+   - N89_d ( PIN N89_d )  ( input32 A ) 
+      + ROUTED li1 ( 30045 11865 ) ( 30215 12235 )
+      + ROUTED met1 ( 31050 2000 ) ( 32500 2140 )
+      + ROUTED met1 ( 30045 12000 ) ( 31050 12140 )
+      + ROUTED met2 ( 32360 0 ) ( 32500 4000 )
+      + ROUTED met2 ( 30980 2070 ) ( 31120 12070 ) ;
+   - N8_d ( PIN N8_d )  ( input33 A ) 
+      + ROUTED li1 ( 10725 63925 ) ( 10895 64295 )
+      + ROUTED met1 ( 10280 78360 ) ( 10420 78500 )
+      + ROUTED met1 ( 10350 64020 ) ( 10895 64160 )
+      + ROUTED met2 ( 10280 64090 ) ( 10420 80215 ) ;
+   - N92 ( _161_ Q )  ( _132_ B2 )  ( _117_ C1 ) 
+      + ROUTED li1 ( 31885 12455 ) ( 32055 13300 )
+      + ROUTED li1 ( 36025 31365 ) ( 36195 31565 )
+      + ROUTED li1 ( 34645 33635 ) ( 34815 33965 )
+      + ROUTED met1 ( 31885 13020 ) ( 34730 13160 )
+      + ROUTED met1 ( 34730 31380 ) ( 36195 31520 )
+      + ROUTED met1 ( 34645 33760 ) ( 34815 33900 )
+      + ROUTED met2 ( 34660 13090 ) ( 34800 33830 ) ;
+   - N92_d ( PIN N92_d )  ( input34 A ) 
+      + ROUTED li1 ( 40165 11865 ) ( 40335 12235 )
+      + ROUTED met1 ( 36500 2000 ) ( 38870 2140 )
+      + ROUTED met1 ( 38870 12000 ) ( 40335 12140 )
+      + ROUTED met2 ( 36500 0 ) ( 36640 4000 )
+      + ROUTED met2 ( 38800 2070 ) ( 38940 12070 ) ;
+   - N95 ( _162_ Q )  ( _101_ A )  ( _081_ B_N ) 
+      + ROUTED li1 ( 40625 13900 ) ( 40795 14745 )
+      + ROUTED li1 ( 43845 20435 ) ( 44015 20685 )
+      + ROUTED li1 ( 47525 22835 ) ( 47695 23085 )
+      + ROUTED met1 ( 40625 14380 ) ( 42090 14520 )
+      + ROUTED met1 ( 42090 20500 ) ( 46690 20640 )
+      + ROUTED met1 ( 46690 22880 ) ( 47695 23020 )
+      + ROUTED met2 ( 42020 14450 ) ( 42160 20570 )
+      + ROUTED met2 ( 46620 20570 ) ( 46760 22950 ) ;
+   - N95_d ( PIN N95_d )  ( input35 A ) 
+      + ROUTED li1 ( 42005 11865 ) ( 42175 12235 )
+      + ROUTED met1 ( 40640 2000 ) ( 41170 2140 )
+      + ROUTED met1 ( 41170 12000 ) ( 42175 12140 )
+      + ROUTED met2 ( 40640 0 ) ( 40780 4000 )
+      + ROUTED met2 ( 41100 2070 ) ( 41240 12070 ) ;
+   - N99 ( _163_ Q )  ( _131_ A1 )  ( _102_ B ) 
+      + ROUTED li1 ( 41085 13900 ) ( 41255 14745 )
+      + ROUTED li1 ( 43845 25925 ) ( 44015 26125 )
+      + ROUTED li1 ( 45225 25875 ) ( 45395 26435 )
+      + ROUTED met1 ( 41085 14040 ) ( 43470 14180 )
+      + ROUTED met1 ( 43470 25940 ) ( 45395 26080 )
+      + ROUTED met2 ( 43400 14110 ) ( 43540 26010 ) ;
+   - N99_d ( PIN N99_d )  ( input36 A ) 
+      + ROUTED li1 ( 45225 11865 ) ( 45395 12235 )
+      + ROUTED met1 ( 44780 2000 ) ( 44920 2140 )
+      + ROUTED met1 ( 44850 12000 ) ( 45395 12140 )
+      + ROUTED met2 ( 44780 0 ) ( 44920 12070 ) ;
+   - _000_ ( _130_ Y )  ( _067_ D_N )  ( _066_ A2 ) 
+      + ROUTED li1 ( 27745 35615 ) ( 27915 36455 )
+      + ROUTED li1 ( 26365 41905 ) ( 26535 42525 )
+      + ROUTED li1 ( 25905 39155 ) ( 26075 40470 )
+      + ROUTED met1 ( 26910 35800 ) ( 27915 35940 )
+      + ROUTED met1 ( 25990 42260 ) ( 26535 42400 )
+      + ROUTED met1 ( 25905 39880 ) ( 26910 40020 )
+      + ROUTED met2 ( 26840 35870 ) ( 26980 39950 )
+      + ROUTED met2 ( 25920 39950 ) ( 26060 42330 ) ;
+   - _001_ ( _131_ Y )  ( _072_ A1 )  ( _066_ A3 ) 
+      + ROUTED li1 ( 40165 25075 ) ( 40335 26295 )
+      + ROUTED li1 ( 22225 39094 ) ( 22395 39405 )
+      + ROUTED li1 ( 25445 39155 ) ( 25615 40470 )
+      + ROUTED met1 ( 30590 25600 ) ( 40335 25740 )
+      + ROUTED met1 ( 22225 39200 ) ( 23690 39340 )
+      + ROUTED met1 ( 23690 39880 ) ( 30590 40020 )
+      + ROUTED met2 ( 30520 25670 ) ( 30660 39950 )
+      + ROUTED met2 ( 23620 39270 ) ( 23760 39950 ) ;
+   - _002_ ( _132_ X )  ( _072_ A2 )  ( _068_ C ) 
+ ( _064_ A ) 
+      + ROUTED li1 ( 33265 30175 ) ( 33435 30845 )
+      + ROUTED li1 ( 22685 39075 ) ( 22855 39405 )
+      + ROUTED li1 ( 33725 36755 ) ( 33895 37085 )
+      + ROUTED li1 ( 26825 33715 ) ( 26995 33965 )
+      + ROUTED met1 ( 27370 30360 ) ( 33435 30500 )
+      + ROUTED met1 ( 22685 39200 ) ( 24150 39340 )
+      + ROUTED met1 ( 32890 36820 ) ( 33895 36960 )
+      + ROUTED met1 ( 24150 33760 ) ( 27370 33900 )
+      + ROUTED met2 ( 32820 30430 ) ( 32960 36890 )
+      + ROUTED met2 ( 27300 30430 ) ( 27440 33830 )
+      + ROUTED met2 ( 24080 33830 ) ( 24220 39270 ) ;
+   - _003_ ( _064_ B )  ( _063_ X ) 
+      + ROUTED li1 ( 27745 33695 ) ( 27915 33965 )
+      + ROUTED li1 ( 41085 30175 ) ( 41255 30845 )
+      + ROUTED met1 ( 27745 33760 ) ( 33810 33900 )
+      + ROUTED met1 ( 33810 30700 ) ( 41255 30840 )
+      + ROUTED met2 ( 33740 30770 ) ( 33880 33830 ) ;
+   - _004_ ( _066_ A4 )  ( _064_ Y ) 
+      + ROUTED li1 ( 24985 39155 ) ( 25155 40470 )
+      + ROUTED li1 ( 27285 34125 ) ( 27455 35105 )
+      + ROUTED met1 ( 24985 39880 ) ( 25155 40020 )
+      + ROUTED met1 ( 25070 34440 ) ( 27455 34580 )
+      + ROUTED met2 ( 25000 34510 ) ( 25140 39950 ) ;
+   - _005_ ( _066_ B1 )  ( _065_ X ) 
+      + ROUTED li1 ( 24525 39155 ) ( 24695 39365 )
+      + ROUTED li1 ( 26825 43785 ) ( 26995 45975 )
+      + ROUTED met1 ( 24525 39200 ) ( 25530 39340 )
+      + ROUTED met1 ( 25530 44640 ) ( 26995 44780 )
+      + ROUTED met2 ( 25460 39270 ) ( 25600 44710 ) ;
+   - _006_ ( _073_ B1 )  ( _069_ B )  ( _067_ Y ) 
+      + ROUTED li1 ( 19465 42195 ) ( 19635 42525 )
+      + ROUTED li1 ( 22225 41105 ) ( 22395 41395 )
+      + ROUTED li1 ( 24065 41070 ) ( 24235 42695 )
+      + ROUTED met1 ( 19465 42260 ) ( 20930 42400 )
+      + ROUTED met1 ( 20930 41240 ) ( 23230 41380 )
+      + ROUTED met1 ( 23230 41920 ) ( 24235 42060 )
+      + ROUTED met2 ( 20860 41310 ) ( 21000 42330 )
+      + ROUTED met2 ( 23160 41310 ) ( 23300 41990 ) ;
+   - _007_ ( _069_ D_N )  ( _068_ X ) 
+      + ROUTED li1 ( 23605 42195 ) ( 23775 42765 )
+      + ROUTED li1 ( 31885 35615 ) ( 32055 36585 )
+      + ROUTED met1 ( 23605 42600 ) ( 27830 42740 )
+      + ROUTED met1 ( 27830 36140 ) ( 32055 36280 )
+      + ROUTED met2 ( 27760 36210 ) ( 27900 42670 ) ;
+   - _008_ ( _070_ A )  ( _069_ X ) 
+      + ROUTED li1 ( 14405 49945 ) ( 14575 50315 )
+      + ROUTED li1 ( 20385 41055 ) ( 20555 42025 )
+      + ROUTED met1 ( 14405 50080 ) ( 17250 50220 )
+      + ROUTED met1 ( 17250 41580 ) ( 20555 41720 )
+      + ROUTED met2 ( 17180 41650 ) ( 17320 50150 ) ;
+   - _009_ ( _073_ A1 )  ( _071_ Y ) 
+      + ROUTED li1 ( 18545 42195 ) ( 18715 42525 )
+      + ROUTED li1 ( 22225 35615 ) ( 22395 36595 )
+      + ROUTED met1 ( 18545 42260 ) ( 18715 42400 )
+      + ROUTED met1 ( 18630 36140 ) ( 22395 36280 )
+      + ROUTED met2 ( 18560 36210 ) ( 18700 42330 ) ;
+   - _010_ ( _073_ A2 )  ( _072_ X ) 
+      + ROUTED li1 ( 18085 42195 ) ( 18255 42525 )
+      + ROUTED li1 ( 20385 38345 ) ( 20555 40535 )
+      + ROUTED met1 ( 18085 42260 ) ( 19090 42400 )
+      + ROUTED met1 ( 19090 39200 ) ( 20555 39340 )
+      + ROUTED met2 ( 19020 39270 ) ( 19160 42330 ) ;
+   - _011_ ( _111_ C1 )  ( _090_ C1 )  ( _078_ A2 ) 
+ ( _074_ Y ) 
+      + ROUTED li1 ( 27745 53115 ) ( 27915 53325 )
+      + ROUTED li1 ( 24525 49955 ) ( 24695 50285 )
+      + ROUTED li1 ( 33265 53075 ) ( 33435 53325 )
+      + ROUTED li1 ( 18085 57375 ) ( 18255 58355 )
+      + ROUTED met1 ( 24610 53140 ) ( 33435 53280 )
+      + ROUTED met1 ( 19090 50080 ) ( 24695 50220 )
+      + ROUTED met1 ( 18085 57900 ) ( 19090 58040 )
+      + ROUTED met2 ( 24540 50150 ) ( 24680 53210 )
+      + ROUTED met2 ( 19020 50150 ) ( 19160 57970 ) ;
+   - _012_ ( _078_ B1 )  ( _075_ X ) 
+      + ROUTED li1 ( 34645 53075 ) ( 34815 53325 )
+      + ROUTED li1 ( 33265 55895 ) ( 33435 56865 )
+      + ROUTED met1 ( 34645 53140 ) ( 34815 53280 )
+      + ROUTED met1 ( 33265 56200 ) ( 34730 56340 )
+      + ROUTED met2 ( 34660 53210 ) ( 34800 56270 ) ;
+   - _013_ ( _078_ C1 )  ( _076_ X ) 
+      + ROUTED li1 ( 35565 53075 ) ( 35735 53325 )
+      + ROUTED li1 ( 34185 24735 ) ( 34355 25705 )
+      + ROUTED met1 ( 35190 53140 ) ( 35735 53280 )
+      + ROUTED met1 ( 34185 25260 ) ( 35190 25400 )
+      + ROUTED met2 ( 35120 25330 ) ( 35260 53210 ) ;
+   - _014_ ( _078_ D1 )  ( _077_ X ) 
+      + ROUTED li1 ( 36945 53045 ) ( 37115 53325 )
+      + ROUTED li1 ( 40165 55895 ) ( 40335 56865 )
+      + ROUTED met1 ( 36945 53140 ) ( 38410 53280 )
+      + ROUTED met1 ( 38410 56200 ) ( 40335 56340 )
+      + ROUTED met2 ( 38340 53210 ) ( 38480 56270 ) ;
+   - _015_ ( _098_ A2 )  ( _085_ A )  ( _078_ Y ) 
+      + ROUTED li1 ( 47525 33965 ) ( 47695 34765 )
+      + ROUTED li1 ( 50745 33965 ) ( 50915 34255 )
+      + ROUTED li1 ( 36485 51935 ) ( 36655 52735 )
+      + ROUTED met1 ( 43470 34100 ) ( 50915 34240 )
+      + ROUTED met1 ( 36485 52120 ) ( 43470 52260 )
+      + ROUTED met2 ( 43400 34170 ) ( 43540 52190 ) ;
+   - _016_ ( _115_ B1 )  ( _100_ C1 )  ( _083_ A1 ) 
+ ( _079_ Y ) 
+      + ROUTED li1 ( 35105 36755 ) ( 35275 37066 )
+      + ROUTED li1 ( 36025 33635 ) ( 36195 33965 )
+      + ROUTED li1 ( 46605 36465 ) ( 46775 37076 )
+      + ROUTED li1 ( 19465 28685 ) ( 19635 29665 )
+      + ROUTED met1 ( 35105 36820 ) ( 40710 36960 )
+      + ROUTED met1 ( 35190 33760 ) ( 36195 33900 )
+      + ROUTED met1 ( 40710 36480 ) ( 46775 36620 )
+      + ROUTED met1 ( 19465 29340 ) ( 36110 29480 )
+      + ROUTED met2 ( 35120 33830 ) ( 35260 36890 )
+      + ROUTED met2 ( 40640 36550 ) ( 40780 36890 )
+      + ROUTED met2 ( 36040 29410 ) ( 36180 33830 ) ;
+   - _017_ ( _083_ B1 )  ( _080_ X ) 
+      + ROUTED li1 ( 47985 36465 ) ( 48155 37085 )
+      + ROUTED li1 ( 47985 50455 ) ( 48155 51425 )
+      + ROUTED met1 ( 47985 36820 ) ( 48155 36960 )
+      + ROUTED met1 ( 47985 50760 ) ( 48155 50900 )
+      + ROUTED met2 ( 48000 36890 ) ( 48140 50830 ) ;
+   - _018_ ( _103_ A1 )  ( _083_ C1 )  ( _081_ X ) 
+      + ROUTED li1 ( 43385 28214 ) ( 43555 28525 )
+      + ROUTED li1 ( 48445 36465 ) ( 48615 37825 )
+      + ROUTED li1 ( 49825 23255 ) ( 49995 24225 )
+      + ROUTED met1 ( 43385 28320 ) ( 48990 28460 )
+      + ROUTED met1 ( 48445 37160 ) ( 48990 37300 )
+      + ROUTED met1 ( 48990 23900 ) ( 49995 24040 )
+      + ROUTED met2 ( 48920 23970 ) ( 49060 37230 ) ;
+   - _019_ ( _083_ D1 )  ( _082_ X ) 
+      + ROUTED li1 ( 48905 36465 ) ( 49075 37005 )
+      + ROUTED li1 ( 50745 41055 ) ( 50915 42025 )
+      + ROUTED met1 ( 48905 36820 ) ( 49910 36960 )
+      + ROUTED met1 ( 49910 41580 ) ( 50915 41720 )
+      + ROUTED met2 ( 49840 36890 ) ( 49980 41650 ) ;
+   - _020_ ( _098_ A3 )  ( _085_ B )  ( _083_ Y ) 
+      + ROUTED li1 ( 47985 33635 ) ( 48155 34765 )
+      + ROUTED li1 ( 50745 34765 ) ( 50915 35055 )
+      + ROUTED li1 ( 48905 35800 ) ( 49075 36055 )
+      + ROUTED met1 ( 47985 34100 ) ( 48530 34240 )
+      + ROUTED met1 ( 49910 34780 ) ( 50915 34920 )
+      + ROUTED met1 ( 48530 35800 ) ( 49910 35940 )
+      + ROUTED met2 ( 48460 34170 ) ( 48600 35870 )
+      + ROUTED met2 ( 49840 34850 ) ( 49980 35870 ) ;
+   - _021_ ( _097_ A )  ( _085_ C )  ( _084_ X ) 
+      + ROUTED li1 ( 50745 31315 ) ( 50915 31565 )
+      + ROUTED li1 ( 51205 33635 ) ( 51375 33965 )
+      + ROUTED li1 ( 52125 23340 ) ( 52295 24125 )
+      + ROUTED met1 ( 50745 31380 ) ( 51290 31520 )
+      + ROUTED met1 ( 50830 33760 ) ( 51375 33900 )
+      + ROUTED met1 ( 51290 23560 ) ( 52295 23700 )
+      + ROUTED met2 ( 50760 31450 ) ( 50900 33830 )
+      + ROUTED met2 ( 51220 23630 ) ( 51360 31450 ) ;
+   - _022_ ( _100_ A2 )  ( _095_ A2 )  ( _092_ A2 ) 
+ ( _086_ A )  ( _085_ X ) 
+      + ROUTED li1 ( 37865 33635 ) ( 38035 33965 )
+      + ROUTED li1 ( 35105 28195 ) ( 35275 28815 )
+      + ROUTED li1 ( 47985 41905 ) ( 48155 42525 )
+      + ROUTED li1 ( 43385 36725 ) ( 43555 37095 )
+      + ROUTED li1 ( 49365 34135 ) ( 49535 35105 )
+      + ROUTED met1 ( 37865 33760 ) ( 41630 33900 )
+      + ROUTED met1 ( 35105 28320 ) ( 37950 28460 )
+      + ROUTED met1 ( 47610 42260 ) ( 48155 42400 )
+      + ROUTED met1 ( 41630 36820 ) ( 46690 36960 )
+      + ROUTED met1 ( 46690 34440 ) ( 49535 34580 )
+      + ROUTED met2 ( 37880 28390 ) ( 38020 33830 )
+      + ROUTED met2 ( 41560 33830 ) ( 41700 36890 )
+      + ROUTED met2 ( 46620 34510 ) ( 46760 36890 )
+      + ROUTED met2 ( 47540 34510 ) ( 47680 42330 ) ;
+   - _023_ ( _107_ B1 )  ( _091_ A2 )  ( _087_ X ) 
+      + ROUTED li1 ( 38325 47635 ) ( 38495 47946 )
+      + ROUTED li1 ( 33265 50035 ) ( 33435 50235 )
+      + ROUTED li1 ( 34185 54665 ) ( 34355 56855 )
+      + ROUTED met1 ( 34270 47700 ) ( 38495 47840 )
+      + ROUTED met1 ( 33265 50080 ) ( 34270 50220 )
+      + ROUTED met1 ( 33810 55520 ) ( 34355 55660 )
+      + ROUTED met2 ( 34200 47770 ) ( 34340 50150 )
+      + ROUTED met2 ( 33740 50150 ) ( 33880 55590 ) ;
+   - _024_ ( _114_ C1 )  ( _089_ C1 )  ( _088_ Y ) 
+      + ROUTED li1 ( 28205 50035 ) ( 28375 50245 )
+      + ROUTED li1 ( 27745 55395 ) ( 27915 55725 )
+      + ROUTED li1 ( 23605 50445 ) ( 23775 51425 )
+      + ROUTED met1 ( 27830 50080 ) ( 28375 50220 )
+      + ROUTED met1 ( 27745 55520 ) ( 27915 55660 )
+      + ROUTED met1 ( 23605 50760 ) ( 27830 50900 )
+      + ROUTED met2 ( 27760 50150 ) ( 27900 55590 ) ;
+   - _025_ ( _091_ B1 )  ( _089_ X ) 
+      + ROUTED li1 ( 32805 50035 ) ( 32975 50235 )
+      + ROUTED li1 ( 30505 56085 ) ( 30675 56855 )
+      + ROUTED met1 ( 32430 50080 ) ( 32975 50220 )
+      + ROUTED met1 ( 30505 56540 ) ( 32430 56680 )
+      + ROUTED met2 ( 32360 50150 ) ( 32500 56610 ) ;
+   - _026_ ( _091_ C1 )  ( _090_ X ) 
+      + ROUTED li1 ( 31885 50035 ) ( 32055 50285 )
+      + ROUTED li1 ( 27285 50645 ) ( 27455 51415 )
+      + ROUTED met1 ( 29670 50080 ) ( 32055 50220 )
+      + ROUTED met1 ( 27285 51100 ) ( 29670 51240 )
+      + ROUTED met2 ( 29600 50150 ) ( 29740 51170 ) ;
+   - _027_ ( _105_ A )  ( _091_ X ) 
+      + ROUTED li1 ( 36945 49955 ) ( 37115 50285 )
+      + ROUTED li1 ( 35105 50455 ) ( 35275 51425 )
+      + ROUTED met1 ( 36110 50080 ) ( 37115 50220 )
+      + ROUTED met1 ( 35105 50760 ) ( 36110 50900 )
+      + ROUTED met2 ( 36040 50150 ) ( 36180 50830 ) ;
+   - _028_ ( _120_ B1 )  ( _094_ A2 )  ( _092_ X ) 
+      + ROUTED li1 ( 43845 44195 ) ( 44015 44845 )
+      + ROUTED li1 ( 47065 41065 ) ( 47235 43255 )
+      + ROUTED li1 ( 47065 50575 ) ( 47235 51365 )
+      + ROUTED met1 ( 43845 44300 ) ( 45310 44440 )
+      + ROUTED met1 ( 47065 50760 ) ( 47235 50900 )
+      + ROUTED met1 ( 45310 41920 ) ( 47235 42060 )
+      + ROUTED met2 ( 45240 41990 ) ( 45380 44370 )
+      + ROUTED met2 ( 47080 41990 ) ( 47220 50830 ) ;
+   - _029_ ( _121_ B1 )  ( _094_ B1 )  ( _093_ X ) 
+      + ROUTED li1 ( 41545 49974 ) ( 41715 50285 )
+      + ROUTED li1 ( 45685 50035 ) ( 45855 50285 )
+      + ROUTED li1 ( 44305 51945 ) ( 44475 54135 )
+      + ROUTED met1 ( 41545 50080 ) ( 45855 50220 )
+      + ROUTED met1 ( 44305 52800 ) ( 44850 52940 )
+      + ROUTED met2 ( 44780 50150 ) ( 44920 52870 ) ;
+   - _030_ ( _105_ B )  ( _094_ X ) 
+      + ROUTED li1 ( 38325 50035 ) ( 38495 50235 )
+      + ROUTED li1 ( 44765 49325 ) ( 44935 51425 )
+      + ROUTED met1 ( 38325 50080 ) ( 39790 50220 )
+      + ROUTED met1 ( 39790 50420 ) ( 44935 50560 )
+      + ROUTED met2 ( 39720 50150 ) ( 39860 50490 ) ;
+   - _031_ ( _132_ C1 )  ( _117_ B1 )  ( _104_ A2 ) 
+ ( _095_ X ) 
+      + ROUTED li1 ( 36485 31355 ) ( 36655 31565 )
+      + ROUTED li1 ( 34185 33635 ) ( 34355 33965 )
+      + ROUTED li1 ( 37405 30225 ) ( 37575 31315 )
+      + ROUTED li1 ( 36025 27465 ) ( 36195 29655 )
+      + ROUTED met1 ( 35190 31380 ) ( 37030 31520 )
+      + ROUTED met1 ( 34185 33760 ) ( 35190 33900 )
+      + ROUTED met1 ( 37030 30700 ) ( 37575 30840 )
+      + ROUTED met1 ( 36025 28320 ) ( 36195 28460 )
+      + ROUTED met2 ( 36960 30770 ) ( 37100 31450 )
+      + ROUTED met2 ( 36040 28390 ) ( 36180 31450 )
+      + ROUTED met2 ( 35120 31450 ) ( 35260 33830 ) ;
+   - _032_ ( _098_ A1 )  ( _096_ Y ) 
+      + ROUTED li1 ( 47065 33635 ) ( 47235 33915 )
+      + ROUTED li1 ( 50745 28685 ) ( 50915 29665 )
+      + ROUTED met1 ( 47065 33760 ) ( 48070 33900 )
+      + ROUTED met1 ( 48070 29000 ) ( 50915 29140 )
+      + ROUTED met2 ( 48000 29070 ) ( 48140 33830 ) ;
+   - _033_ ( _098_ B1 )  ( _097_ Y ) 
+      + ROUTED li1 ( 48445 33635 ) ( 48615 33965 )
+      + ROUTED li1 ( 50285 30175 ) ( 50455 31155 )
+      + ROUTED met1 ( 48445 33760 ) ( 49450 33900 )
+      + ROUTED met1 ( 49450 30700 ) ( 50455 30840 )
+      + ROUTED met2 ( 49380 30770 ) ( 49520 33830 ) ;
+   - _034_ ( _112_ B1 )  ( _099_ B )  ( _098_ X ) 
+ ( _063_ C1 ) 
+      + ROUTED li1 ( 41545 33635 ) ( 41715 33965 )
+      + ROUTED li1 ( 46605 31315 ) ( 46775 31875 )
+      + ROUTED li1 ( 46145 34475 ) ( 46315 35105 )
+      + ROUTED li1 ( 44305 31355 ) ( 44475 31565 )
+      + ROUTED met1 ( 41545 33760 ) ( 43010 33900 )
+      + ROUTED met1 ( 43010 31380 ) ( 46775 31520 )
+      + ROUTED met1 ( 46145 34780 ) ( 46315 34920 )
+      + ROUTED met2 ( 42940 31450 ) ( 43080 33830 )
+      + ROUTED met2 ( 46160 31450 ) ( 46300 34850 ) ;
+   - _035_ ( _104_ B1 )  ( _099_ X ) 
+      + ROUTED li1 ( 38325 31315 ) ( 38495 31645 )
+      + ROUTED li1 ( 44765 30175 ) ( 44935 30795 )
+      + ROUTED met1 ( 38325 31380 ) ( 38870 31520 )
+      + ROUTED met1 ( 38870 30360 ) ( 44935 30500 )
+      + ROUTED met2 ( 38800 30430 ) ( 38940 31450 ) ;
+   - _036_ ( _104_ C1 )  ( _100_ X ) 
+      + ROUTED li1 ( 38785 31315 ) ( 38955 32250 )
+      + ROUTED li1 ( 38785 34325 ) ( 38955 35095 )
+      + ROUTED met1 ( 38785 31720 ) ( 38955 31860 )
+      + ROUTED met1 ( 38785 34780 ) ( 38955 34920 )
+      + ROUTED met2 ( 38800 31790 ) ( 38940 34850 ) ;
+   - _037_ ( _108_ B1 )  ( _102_ A )  ( _101_ Y ) 
+      + ROUTED li1 ( 45685 22774 ) ( 45855 23085 )
+      + ROUTED li1 ( 46145 25875 ) ( 46315 26435 )
+      + ROUTED li1 ( 44305 19295 ) ( 44475 20275 )
+      + ROUTED met1 ( 44850 22880 ) ( 45855 23020 )
+      + ROUTED met1 ( 45770 25940 ) ( 46315 26080 )
+      + ROUTED met1 ( 44305 19820 ) ( 44850 19960 )
+      + ROUTED met2 ( 45700 22950 ) ( 45840 26010 )
+      + ROUTED met2 ( 44780 19890 ) ( 44920 22950 ) ;
+   - _038_ ( _109_ A1 )  ( _103_ B1 )  ( _102_ X ) 
+      + ROUTED li1 ( 41545 22755 ) ( 41715 23085 )
+      + ROUTED li1 ( 42465 28214 ) ( 42635 28525 )
+      + ROUTED li1 ( 47065 24735 ) ( 47235 25355 )
+      + ROUTED met1 ( 41545 22880 ) ( 42090 23020 )
+      + ROUTED met1 ( 42090 28320 ) ( 42635 28460 )
+      + ROUTED met1 ( 41630 24920 ) ( 47235 25060 )
+      + ROUTED met2 ( 42020 22950 ) ( 42160 28390 )
+      + ROUTED met2 ( 41560 22950 ) ( 41700 24990 ) ;
+   - _039_ ( _104_ D1 )  ( _103_ X ) 
+      + ROUTED li1 ( 39245 31315 ) ( 39415 31565 )
+      + ROUTED li1 ( 41545 27465 ) ( 41715 29655 )
+      + ROUTED met1 ( 39245 31380 ) ( 40250 31520 )
+      + ROUTED met1 ( 40250 28320 ) ( 41715 28460 )
+      + ROUTED met2 ( 40180 28390 ) ( 40320 31450 ) ;
+   - _040_ ( _105_ C )  ( _104_ X ) 
+      + ROUTED li1 ( 39705 50035 ) ( 39875 50235 )
+      + ROUTED li1 ( 40625 30175 ) ( 40795 32385 )
+      + ROUTED met1 ( 39705 50080 ) ( 39875 50220 )
+      + ROUTED met1 ( 39790 31040 ) ( 40795 31180 )
+      + ROUTED met2 ( 39720 31110 ) ( 39860 50150 ) ;
+   - _041_ ( _121_ A2 )  ( _116_ A2 )  ( _114_ B1 ) 
+ ( _111_ B1 )  ( _106_ A )  ( _105_ Y ) 
+      + ROUTED li1 ( 42925 49955 ) ( 43095 50285 )
+      + ROUTED li1 ( 30045 36755 ) ( 30215 37085 )
+      + ROUTED li1 ( 29585 50035 ) ( 29755 50235 )
+      + ROUTED li1 ( 29125 53125 ) ( 29295 53325 )
+      + ROUTED li1 ( 40625 36725 ) ( 40795 37095 )
+      + ROUTED li1 ( 37405 50625 ) ( 37575 51425 )
+      + ROUTED met1 ( 29210 50080 ) ( 34730 50220 )
+      + ROUTED met1 ( 42925 50080 ) ( 43095 50220 )
+      + ROUTED met1 ( 29670 36820 ) ( 40795 36960 )
+      + ROUTED met1 ( 29125 53140 ) ( 29295 53280 )
+      + ROUTED met1 ( 34730 51100 ) ( 43010 51240 )
+      + ROUTED met2 ( 42940 50150 ) ( 43080 51170 )
+      + ROUTED met2 ( 34660 50150 ) ( 34800 51170 )
+      + ROUTED met2 ( 29140 50150 ) ( 29280 53210 )
+      + ROUTED met2 ( 29600 36890 ) ( 29740 50150 ) ;
+   - _042_ ( _124_ B1 )  ( _110_ A2 )  ( _107_ X ) 
+      + ROUTED li1 ( 39245 44515 ) ( 39415 45145 )
+      + ROUTED li1 ( 39245 46505 ) ( 39415 48695 )
+      + ROUTED li1 ( 42005 41130 ) ( 42175 42245 )
+      + ROUTED met1 ( 38870 44980 ) ( 40710 45120 )
+      + ROUTED met1 ( 40710 41920 ) ( 42175 42060 )
+      + ROUTED met1 ( 38870 47360 ) ( 39415 47500 )
+      + ROUTED met2 ( 38800 45050 ) ( 38940 47430 )
+      + ROUTED met2 ( 40640 41990 ) ( 40780 45050 ) ;
+   - _043_ ( _131_ C1 )  ( _109_ B1 )  ( _108_ X ) 
+      + ROUTED li1 ( 39705 25585 ) ( 39875 26125 )
+      + ROUTED li1 ( 40625 22755 ) ( 40795 23085 )
+      + ROUTED li1 ( 44765 22025 ) ( 44935 24215 )
+      + ROUTED met1 ( 39705 25940 ) ( 40250 26080 )
+      + ROUTED met1 ( 40250 22880 ) ( 42550 23020 )
+      + ROUTED met1 ( 42550 23220 ) ( 44935 23360 )
+      + ROUTED met2 ( 40180 22950 ) ( 40320 26010 )
+      + ROUTED met2 ( 42480 22950 ) ( 42620 23290 ) ;
+   - _044_ ( _110_ B1 )  ( _109_ X ) 
+      + ROUTED li1 ( 42925 23445 ) ( 43095 24215 )
+      + ROUTED li1 ( 42925 42215 ) ( 43095 42445 )
+      + ROUTED met1 ( 42550 42260 ) ( 43095 42400 )
+      + ROUTED met1 ( 42550 23900 ) ( 43095 24040 )
+      + ROUTED met2 ( 42480 23970 ) ( 42620 42330 ) ;
+   - _045_ ( _123_ A )  ( _110_ X ) 
+      + ROUTED li1 ( 40625 42245 ) ( 40795 42445 )
+      + ROUTED li1 ( 43845 41055 ) ( 44015 42490 )
+      + ROUTED met1 ( 40625 42260 ) ( 42090 42400 )
+      + ROUTED met1 ( 42090 41580 ) ( 44015 41720 )
+      + ROUTED met2 ( 42020 41650 ) ( 42160 42330 ) ;
+   - _046_ ( _113_ A2 )  ( _111_ X )  ( _065_ B1 ) 
+      + ROUTED li1 ( 32345 39355 ) ( 32515 40470 )
+      + ROUTED li1 ( 30965 51935 ) ( 31135 52605 )
+      + ROUTED li1 ( 27745 44534 ) ( 27915 44845 )
+      + ROUTED met1 ( 31050 39880 ) ( 32515 40020 )
+      + ROUTED met1 ( 29210 52120 ) ( 31135 52260 )
+      + ROUTED met1 ( 27745 44640 ) ( 31050 44780 )
+      + ROUTED met2 ( 30980 39950 ) ( 31120 44710 )
+      + ROUTED met2 ( 29140 44710 ) ( 29280 52190 ) ;
+   - _047_ ( _113_ B1 )  ( _112_ X ) 
+      + ROUTED li1 ( 33265 39155 ) ( 33435 39385 )
+      + ROUTED li1 ( 39245 34325 ) ( 39415 35095 )
+      + ROUTED met1 ( 33265 39200 ) ( 39330 39340 )
+      + ROUTED met1 ( 39245 34780 ) ( 39415 34920 )
+      + ROUTED met2 ( 39260 34850 ) ( 39400 39270 ) ;
+   - _048_ ( _123_ B )  ( _113_ X ) 
+      + ROUTED li1 ( 38325 42245 ) ( 38495 42445 )
+      + ROUTED li1 ( 34185 39110 ) ( 34355 40545 )
+      + ROUTED met1 ( 37030 42260 ) ( 38495 42400 )
+      + ROUTED met1 ( 34185 39880 ) ( 37030 40020 )
+      + ROUTED met2 ( 36960 39950 ) ( 37100 42330 ) ;
+   - _049_ ( _125_ B1 )  ( _118_ A2 )  ( _114_ X ) 
+      + ROUTED li1 ( 31885 42195 ) ( 32055 42845 )
+      + ROUTED li1 ( 29125 42245 ) ( 29295 42445 )
+      + ROUTED li1 ( 31425 50755 ) ( 31595 51425 )
+      + ROUTED met1 ( 29210 42600 ) ( 32055 42740 )
+      + ROUTED met1 ( 29125 42260 ) ( 29295 42400 )
+      + ROUTED met1 ( 31425 51100 ) ( 31595 51240 )
+      + ROUTED met2 ( 29140 42330 ) ( 29280 42670 )
+      + ROUTED met2 ( 31440 42670 ) ( 31580 51170 ) ;
+   - _050_ ( _130_ C1 )  ( _116_ B1 )  ( _115_ X ) 
+      + ROUTED li1 ( 27745 36795 ) ( 27915 37005 )
+      + ROUTED li1 ( 28665 36755 ) ( 28835 37085 )
+      + ROUTED li1 ( 34185 35625 ) ( 34355 37815 )
+      + ROUTED met1 ( 27745 36820 ) ( 31510 36960 )
+      + ROUTED met1 ( 31510 36480 ) ( 34355 36620 )
+      + ROUTED met2 ( 31440 36550 ) ( 31580 36890 ) ;
+   - _051_ ( _118_ B1 )  ( _116_ X ) 
+      + ROUTED li1 ( 28665 42245 ) ( 28835 42445 )
+      + ROUTED li1 ( 30965 35625 ) ( 31135 36395 )
+      + ROUTED met1 ( 28665 42260 ) ( 29670 42400 )
+      + ROUTED met1 ( 29670 35800 ) ( 31135 35940 )
+      + ROUTED met2 ( 29600 35870 ) ( 29740 42330 ) ;
+   - _052_ ( _118_ C1 )  ( _117_ X ) 
+      + ROUTED li1 ( 27745 42195 ) ( 27915 42445 )
+      + ROUTED li1 ( 31885 34325 ) ( 32055 35095 )
+      + ROUTED met1 ( 27745 42260 ) ( 28290 42400 )
+      + ROUTED met1 ( 28290 34780 ) ( 32055 34920 )
+      + ROUTED met2 ( 28220 34850 ) ( 28360 42330 ) ;
+   - _053_ ( _123_ C )  ( _118_ X ) 
+      + ROUTED li1 ( 36485 42245 ) ( 36655 42445 )
+      + ROUTED li1 ( 30965 41055 ) ( 31135 42025 )
+      + ROUTED met1 ( 35190 42260 ) ( 36655 42400 )
+      + ROUTED met1 ( 30965 41580 ) ( 35190 41720 )
+      + ROUTED met2 ( 35120 41650 ) ( 35260 42330 ) ;
+   - _054_ ( _122_ A1_N )  ( _119_ Y ) 
+      + ROUTED li1 ( 36485 44595 ) ( 36655 44795 )
+      + ROUTED li1 ( 37405 35615 ) ( 37575 36595 )
+      + ROUTED met1 ( 36485 44640 ) ( 36655 44780 )
+      + ROUTED met1 ( 36570 36140 ) ( 37575 36280 )
+      + ROUTED met2 ( 36500 36210 ) ( 36640 44710 ) ;
+   - _055_ ( _127_ B1_N )  ( _122_ A2_N )  ( _120_ Y ) 
+      + ROUTED li1 ( 34185 44495 ) ( 34355 45185 )
+      + ROUTED li1 ( 36945 44300 ) ( 37115 44620 )
+      + ROUTED li1 ( 43845 45205 ) ( 44015 45975 )
+      + ROUTED met1 ( 34185 44640 ) ( 35650 44780 )
+      + ROUTED met1 ( 35650 44300 ) ( 40250 44440 )
+      + ROUTED met1 ( 40250 45660 ) ( 44015 45800 )
+      + ROUTED met2 ( 35580 44370 ) ( 35720 44710 )
+      + ROUTED met2 ( 40180 44370 ) ( 40320 45730 ) ;
+   - _056_ ( _126_ B1 )  ( _122_ B1 )  ( _121_ X ) 
+      + ROUTED li1 ( 39705 47635 ) ( 39875 48285 )
+      + ROUTED li1 ( 38785 44595 ) ( 38955 45165 )
+      + ROUTED li1 ( 40625 49225 ) ( 40795 51415 )
+      + ROUTED met1 ( 39330 48040 ) ( 40250 48180 )
+      + ROUTED met1 ( 38785 44640 ) ( 39330 44780 )
+      + ROUTED met1 ( 40250 50080 ) ( 40795 50220 )
+      + ROUTED met2 ( 40180 48110 ) ( 40320 50150 )
+      + ROUTED met2 ( 39260 44710 ) ( 39400 48110 ) ;
+   - _057_ ( _123_ D )  ( _122_ X ) 
+      + ROUTED li1 ( 34185 42245 ) ( 34355 42445 )
+      + ROUTED li1 ( 35565 45315 ) ( 35735 45985 )
+      + ROUTED met1 ( 34185 42260 ) ( 34730 42400 )
+      + ROUTED met1 ( 34730 45660 ) ( 35735 45800 )
+      + ROUTED met2 ( 34660 42330 ) ( 34800 45730 ) ;
+   - _058_ ( _128_ A )  ( _124_ Y )  ( _071_ A ) 
+ ( _069_ A )  ( _067_ A ) 
+      + ROUTED li1 ( 28205 39075 ) ( 28375 39405 )
+      + ROUTED li1 ( 39705 44305 ) ( 39875 45635 )
+      + ROUTED li1 ( 22685 36755 ) ( 22855 37005 )
+      + ROUTED li1 ( 21305 42195 ) ( 21475 42525 )
+      + ROUTED li1 ( 25905 41905 ) ( 26075 42525 )
+      + ROUTED met1 ( 27370 39200 ) ( 28375 39340 )
+      + ROUTED met1 ( 26910 44640 ) ( 39875 44780 )
+      + ROUTED met1 ( 21390 36820 ) ( 22855 36960 )
+      + ROUTED met1 ( 21305 42260 ) ( 27370 42400 )
+      + ROUTED met2 ( 27300 39270 ) ( 27440 42330 )
+      + ROUTED met2 ( 21320 36890 ) ( 21460 42330 )
+      + ROUTED met2 ( 26840 42330 ) ( 26980 44710 ) ;
+   - _059_ ( _128_ B )  ( _125_ Y )  ( _073_ C1 ) 
+ ( _069_ C ) 
+      + ROUTED li1 ( 29125 40205 ) ( 29295 40495 )
+      + ROUTED li1 ( 31885 41065 ) ( 32055 41835 )
+      + ROUTED li1 ( 19925 42195 ) ( 20095 42525 )
+      + ROUTED li1 ( 21765 41905 ) ( 21935 42525 )
+      + ROUTED met1 ( 25070 40220 ) ( 30590 40360 )
+      + ROUTED met1 ( 30590 41240 ) ( 32055 41380 )
+      + ROUTED met1 ( 19925 42260 ) ( 25070 42400 )
+      + ROUTED met2 ( 30520 40290 ) ( 30660 41310 )
+      + ROUTED met2 ( 25000 40290 ) ( 25140 42330 ) ;
+   - _060_ ( _128_ C )  ( _126_ Y )  ( _072_ B1 ) 
+ ( _068_ A )  ( _067_ B ) 
+      + ROUTED li1 ( 28665 39075 ) ( 28835 39695 )
+      + ROUTED li1 ( 39705 46505 ) ( 39875 47275 )
+      + ROUTED li1 ( 21305 39094 ) ( 21475 39405 )
+      + ROUTED li1 ( 33265 36465 ) ( 33435 36755 )
+      + ROUTED li1 ( 25445 41905 ) ( 25615 42525 )
+      + ROUTED met1 ( 25530 39540 ) ( 29210 39680 )
+      + ROUTED met1 ( 36110 46680 ) ( 39875 46820 )
+      + ROUTED met1 ( 21305 39200 ) ( 22310 39340 )
+      + ROUTED met1 ( 29210 36480 ) ( 36110 36620 )
+      + ROUTED met1 ( 22310 42260 ) ( 25615 42400 )
+      + ROUTED met2 ( 25460 39610 ) ( 25600 42330 )
+      + ROUTED met2 ( 22240 39270 ) ( 22380 42330 )
+      + ROUTED met2 ( 29140 36550 ) ( 29280 39610 )
+      + ROUTED met2 ( 36040 36550 ) ( 36180 46750 ) ;
+   - _061_ ( _128_ D )  ( _127_ Y )  ( _068_ B ) 
+ ( _067_ C ) 
+      + ROUTED li1 ( 29585 38835 ) ( 29755 39405 )
+      + ROUTED li1 ( 33265 35665 ) ( 33435 35955 )
+      + ROUTED li1 ( 33265 44865 ) ( 33435 45975 )
+      + ROUTED li1 ( 24985 41905 ) ( 25155 42525 )
+      + ROUTED met1 ( 28750 39200 ) ( 31970 39340 )
+      + ROUTED met1 ( 33265 45320 ) ( 33435 45460 )
+      + ROUTED met1 ( 31970 35800 ) ( 33435 35940 )
+      + ROUTED met1 ( 24985 41920 ) ( 28750 42060 )
+      + ROUTED met2 ( 31900 35870 ) ( 32040 39270 )
+      + ROUTED met2 ( 28680 39270 ) ( 28820 41990 )
+      + ROUTED met2 ( 33280 35870 ) ( 33420 45390 ) ;
+   - _062_ ( _129_ A )  ( _128_ X ) 
+      + ROUTED li1 ( 25445 47605 ) ( 25615 47975 )
+      + ROUTED li1 ( 27285 39575 ) ( 27455 40545 )
+      + ROUTED met1 ( 25445 47700 ) ( 27370 47840 )
+      + ROUTED met1 ( 27285 39880 ) ( 27455 40020 )
+      + ROUTED met2 ( 27300 39950 ) ( 27440 47770 ) ;
+   - clk ( PIN clk )  ( clkbuf_0_clk A )  ;
+   - clknet_0_clk ( clkbuf_2_3__f_clk A )  ( clkbuf_2_2__f_clk A )  ( clkbuf_2_1__f_clk A ) 
+ ( clkbuf_2_0__f_clk A )  ( clkbuf_0_clk X ) 
+      + ROUTED li1 ( 50745 49725 ) ( 50915 50285 )
+      + ROUTED li1 ( 51665 27965 ) ( 51835 28525 )
+      + ROUTED li1 ( 27285 53075 ) ( 27455 53635 )
+      + ROUTED li1 ( 30505 27965 ) ( 30675 28525 )
+      + ROUTED li1 ( 41085 39815 ) ( 41255 40540 )
+      + ROUTED met1 ( 48990 49740 ) ( 50915 49880 )
+      + ROUTED met1 ( 33350 27980 ) ( 51835 28120 )
+      + ROUTED met1 ( 27285 53480 ) ( 32890 53620 )
+      + ROUTED met1 ( 30505 28320 ) ( 37490 28460 )
+      + ROUTED met1 ( 32890 40220 ) ( 48990 40360 )
+      + ROUTED met2 ( 48920 40290 ) ( 49060 49810 )
+      + ROUTED met2 ( 37420 28390 ) ( 37560 40290 )
+      + ROUTED met2 ( 33280 28050 ) ( 33420 28390 )
+      + ROUTED met2 ( 32820 40290 ) ( 32960 53550 ) ;
+   - clknet_2_0__leaf_clk ( clkload0 A )  ( _153_ CLK )  ( _154_ CLK ) 
+ ( _155_ CLK )  ( _156_ CLK )  ( _157_ CLK )  ( _158_ CLK ) 
+ ( _159_ CLK )  ( _160_ CLK )  ( _162_ CLK )  ( _169_ CLK ) 
+ ( _170_ CLK )  ( _171_ CLK )  ( clkbuf_2_0__f_clk X ) 
+      + ROUTED li1 ( 20385 27575 ) ( 20555 28525 )
+      + ROUTED li1 ( 7045 33615 ) ( 7215 34265 )
+      + ROUTED li1 ( 10265 22735 ) ( 10435 23385 )
+      + ROUTED li1 ( 11185 28175 ) ( 11355 28825 )
+      + ROUTED li1 ( 19005 22735 ) ( 19175 23385 )
+      + ROUTED li1 ( 19925 17295 ) ( 20095 17945 )
+      + ROUTED li1 ( 22685 11855 ) ( 22855 12505 )
+      + ROUTED li1 ( 24065 14695 ) ( 24235 15345 )
+      + ROUTED li1 ( 34185 17295 ) ( 34355 17945 )
+      + ROUTED li1 ( 33725 14695 ) ( 33895 15345 )
+      + ROUTED li1 ( 30505 20135 ) ( 30675 20785 )
+      + ROUTED li1 ( 33265 22735 ) ( 33435 23385 )
+      + ROUTED li1 ( 13945 25575 ) ( 14115 26225 )
+      + ROUTED li1 ( 28205 28935 ) ( 28375 29660 )
+      + ROUTED met1 ( 19550 27980 ) ( 27830 28120 )
+      + ROUTED met1 ( 7045 33760 ) ( 8050 33900 )
+      + ROUTED met1 ( 10265 23220 ) ( 10810 23360 )
+      + ROUTED met1 ( 16330 23220 ) ( 19550 23360 )
+      + ROUTED met1 ( 32890 23220 ) ( 33810 23360 )
+      + ROUTED met1 ( 8050 28320 ) ( 12190 28460 )
+      + ROUTED met1 ( 19550 17440 ) ( 20470 17580 )
+      + ROUTED met1 ( 22685 12340 ) ( 23230 12480 )
+      + ROUTED met1 ( 20470 15060 ) ( 33895 15200 )
+      + ROUTED met1 ( 33810 17780 ) ( 34355 17920 )
+      + ROUTED met1 ( 30505 20500 ) ( 32890 20640 )
+      + ROUTED met1 ( 12190 25940 ) ( 16330 26080 )
+      + ROUTED met1 ( 27830 29000 ) ( 28375 29140 )
+      + ROUTED met2 ( 19480 17510 ) ( 19620 28050 )
+      + ROUTED met2 ( 20400 15130 ) ( 20540 17510 )
+      + ROUTED met2 ( 23160 12410 ) ( 23300 15130 )
+      + ROUTED met2 ( 16260 23290 ) ( 16400 26010 )
+      + ROUTED met2 ( 12120 26010 ) ( 12260 28390 )
+      + ROUTED met2 ( 10740 23290 ) ( 10880 28390 )
+      + ROUTED met2 ( 27760 28050 ) ( 27900 29070 )
+      + ROUTED met2 ( 7980 28390 ) ( 8120 33830 )
+      + ROUTED met2 ( 33740 15130 ) ( 33880 23290 )
+      + ROUTED met2 ( 32820 20570 ) ( 32960 23290 ) ;
+   - clknet_2_1__leaf_clk ( _133_ CLK )  ( _134_ CLK )  ( _135_ CLK ) 
+ ( _136_ CLK )  ( _137_ CLK )  ( _138_ CLK )  ( _139_ CLK ) 
+ ( _140_ CLK )  ( _141_ CLK )  ( _142_ CLK )  ( _172_ CLK ) 
+ ( _173_ CLK )  ( _174_ CLK )  ( _175_ CLK )  ( clkbuf_2_1__f_clk X ) 
+      + ROUTED li1 ( 7045 60815 ) ( 7215 61465 )
+      + ROUTED li1 ( 8425 66255 ) ( 8595 66905 )
+      + ROUTED li1 ( 11185 55375 ) ( 11355 56025 )
+      + ROUTED li1 ( 13945 39055 ) ( 14115 39705 )
+      + ROUTED li1 ( 13945 44495 ) ( 14115 45145 )
+      + ROUTED li1 ( 13945 47335 ) ( 14115 47985 )
+      + ROUTED li1 ( 13945 58215 ) ( 14115 58865 )
+      + ROUTED li1 ( 13945 63655 ) ( 14115 64305 )
+      + ROUTED li1 ( 19005 44495 ) ( 19175 45145 )
+      + ROUTED li1 ( 19005 58215 ) ( 19175 58865 )
+      + ROUTED li1 ( 20845 60815 ) ( 21015 61465 )
+      + ROUTED li1 ( 24065 63655 ) ( 24235 64305 )
+      + ROUTED li1 ( 24065 66255 ) ( 24235 66905 )
+      + ROUTED li1 ( 30505 60815 ) ( 30675 61465 )
+      + ROUTED li1 ( 24985 51940 ) ( 25155 52665 )
+      + ROUTED met1 ( 7045 60960 ) ( 8050 61100 )
+      + ROUTED met1 ( 19550 60960 ) ( 21390 61100 )
+      + ROUTED met1 ( 24610 60960 ) ( 30675 61100 )
+      + ROUTED met1 ( 8050 66740 ) ( 8970 66880 )
+      + ROUTED met1 ( 23690 66740 ) ( 24235 66880 )
+      + ROUTED met1 ( 11185 55520 ) ( 14030 55660 )
+      + ROUTED met1 ( 8970 64020 ) ( 14115 64160 )
+      + ROUTED met1 ( 13945 44980 ) ( 19175 45120 )
+      + ROUTED met1 ( 13945 58580 ) ( 19550 58720 )
+      + ROUTED met1 ( 21390 63680 ) ( 24610 63820 )
+      + ROUTED met1 ( 13945 39540 ) ( 14115 39680 )
+      + ROUTED met1 ( 13945 47360 ) ( 14115 47500 )
+      + ROUTED met1 ( 19550 52120 ) ( 25155 52260 )
+      + ROUTED met2 ( 7980 61030 ) ( 8120 66810 )
+      + ROUTED met2 ( 8900 64090 ) ( 9040 66810 )
+      + ROUTED met2 ( 13960 39610 ) ( 14100 64090 )
+      + ROUTED met2 ( 19480 52190 ) ( 19620 61030 )
+      + ROUTED met2 ( 21320 61030 ) ( 21460 63750 )
+      + ROUTED met2 ( 23620 63750 ) ( 23760 66810 )
+      + ROUTED met2 ( 24540 61030 ) ( 24680 63750 ) ;
+   - clknet_2_2__leaf_clk ( clkload1 A )  ( _152_ CLK )  ( _161_ CLK ) 
+ ( _163_ CLK )  ( _164_ CLK )  ( _165_ CLK )  ( _166_ CLK ) 
+ ( _167_ CLK )  ( _168_ CLK )  ( clkbuf_2_2__f_clk X ) 
+      + ROUTED li1 ( 53045 31350 ) ( 53215 31575 )
+      + ROUTED li1 ( 61785 17295 ) ( 61955 17945 )
+      + ROUTED li1 ( 61785 22735 ) ( 61955 23385 )
+      + ROUTED li1 ( 61785 39055 ) ( 61955 39705 )
+      + ROUTED li1 ( 38785 11855 ) ( 38955 12505 )
+      + ROUTED li1 ( 47985 14695 ) ( 48155 15345 )
+      + ROUTED li1 ( 48445 14695 ) ( 48615 15345 )
+      + ROUTED li1 ( 56265 20135 ) ( 56435 20785 )
+      + ROUTED li1 ( 54425 17295 ) ( 54595 17945 )
+      + ROUTED li1 ( 53965 28935 ) ( 54135 29480 )
+      + ROUTED met1 ( 53045 31380 ) ( 53215 31520 )
+      + ROUTED met1 ( 61785 39200 ) ( 61955 39340 )
+      + ROUTED met1 ( 38785 12340 ) ( 47150 12480 )
+      + ROUTED met1 ( 47150 15060 ) ( 54050 15200 )
+      + ROUTED met1 ( 55890 20500 ) ( 56435 20640 )
+      + ROUTED met1 ( 54050 17780 ) ( 56810 17920 )
+      + ROUTED met1 ( 56810 17440 ) ( 61955 17580 )
+      + ROUTED met1 ( 61785 22880 ) ( 61955 23020 )
+      + ROUTED met1 ( 53130 29340 ) ( 55890 29480 )
+      + ROUTED met2 ( 53060 29410 ) ( 53200 31450 )
+      + ROUTED met2 ( 55820 17850 ) ( 55960 29410 )
+      + ROUTED met2 ( 56740 17510 ) ( 56880 17850 )
+      + ROUTED met2 ( 61800 17510 ) ( 61940 39270 )
+      + ROUTED met2 ( 53980 15130 ) ( 54120 17850 )
+      + ROUTED met2 ( 47080 12410 ) ( 47220 15130 ) ;
+   - clknet_2_3__leaf_clk ( clkload2 A )  ( _143_ CLK )  ( _144_ CLK ) 
+ ( _145_ CLK )  ( _146_ CLK )  ( _147_ CLK )  ( _148_ CLK ) 
+ ( _149_ CLK )  ( _150_ CLK )  ( _151_ CLK )  ( clkbuf_2_3__f_clk X ) 
+      + ROUTED li1 ( 57645 53075 ) ( 57815 53655 )
+      + ROUTED li1 ( 40165 63655 ) ( 40335 64305 )
+      + ROUTED li1 ( 44765 60815 ) ( 44935 61465 )
+      + ROUTED li1 ( 47525 63655 ) ( 47695 64305 )
+      + ROUTED li1 ( 44305 58215 ) ( 44475 58865 )
+      + ROUTED li1 ( 53965 55375 ) ( 54135 56025 )
+      + ROUTED li1 ( 55805 47335 ) ( 55975 47985 )
+      + ROUTED li1 ( 56725 52775 ) ( 56895 53425 )
+      + ROUTED li1 ( 60865 44495 ) ( 61035 45145 )
+      + ROUTED li1 ( 61785 55375 ) ( 61955 56025 )
+      + ROUTED li1 ( 53045 50695 ) ( 53215 51240 )
+      + ROUTED met1 ( 55890 53140 ) ( 61410 53280 )
+      + ROUTED met1 ( 40165 64020 ) ( 42550 64160 )
+      + ROUTED met1 ( 45310 64020 ) ( 47695 64160 )
+      + ROUTED met1 ( 42550 61300 ) ( 45310 61440 )
+      + ROUTED met1 ( 44305 58580 ) ( 45310 58720 )
+      + ROUTED met1 ( 45310 55520 ) ( 55890 55660 )
+      + ROUTED met1 ( 61410 55520 ) ( 61955 55660 )
+      + ROUTED met1 ( 55430 47700 ) ( 60030 47840 )
+      + ROUTED met1 ( 60030 44640 ) ( 61035 44780 )
+      + ROUTED met1 ( 53045 51100 ) ( 55430 51240 )
+      + ROUTED met2 ( 55820 53210 ) ( 55960 55590 )
+      + ROUTED met2 ( 53060 51170 ) ( 53200 55590 )
+      + ROUTED met2 ( 55360 47770 ) ( 55500 51170 )
+      + ROUTED met2 ( 61340 53210 ) ( 61480 55590 )
+      + ROUTED met2 ( 59960 44710 ) ( 60100 47770 )
+      + ROUTED met2 ( 45240 55590 ) ( 45380 58650 )
+      + ROUTED met2 ( 45240 61370 ) ( 45380 64090 )
+      + ROUTED met2 ( 44320 58650 ) ( 44460 61370 )
+      + ROUTED met2 ( 42480 61370 ) ( 42620 64090 ) ;
+   - net1 ( input1 X )  ( _164_ D ) 
+      + ROUTED li1 ( 50285 12440 ) ( 50455 13345 )
+      + ROUTED li1 ( 49825 15060 ) ( 49995 15605 )
+      + ROUTED met1 ( 49910 12680 ) ( 50455 12820 )
+      + ROUTED met1 ( 49825 15060 ) ( 49995 15200 )
+      + ROUTED met2 ( 49840 12750 ) ( 49980 15130 ) ;
+   - net10 ( input10 X )  ( _139_ D ) 
+      + ROUTED li1 ( 21305 66840 ) ( 21475 67745 )
+      + ROUTED li1 ( 22225 60815 ) ( 22395 61100 )
+      + ROUTED met1 ( 21305 67080 ) ( 21850 67220 )
+      + ROUTED met1 ( 21850 60960 ) ( 22395 61100 )
+      + ROUTED met2 ( 21780 61030 ) ( 21920 67150 ) ;
+   - net11 ( input11 X )  ( _140_ D ) 
+      + ROUTED li1 ( 23605 66840 ) ( 23775 67745 )
+      + ROUTED li1 ( 25445 64020 ) ( 25615 64565 )
+      + ROUTED met1 ( 23605 67080 ) ( 24150 67220 )
+      + ROUTED met1 ( 24150 64020 ) ( 25615 64160 )
+      + ROUTED met2 ( 24080 64090 ) ( 24220 67150 ) ;
+   - net12 ( input12 X )  ( _141_ D ) 
+      + ROUTED li1 ( 31885 66840 ) ( 32055 67745 )
+      + ROUTED li1 ( 25445 66255 ) ( 25615 66540 )
+      + ROUTED met1 ( 28750 67080 ) ( 32055 67220 )
+      + ROUTED met1 ( 25445 66400 ) ( 28750 66540 )
+      + ROUTED met2 ( 28680 66470 ) ( 28820 67150 ) ;
+   - net13 ( input13 X )  ( _142_ D ) 
+      + ROUTED li1 ( 33265 66840 ) ( 33435 67745 )
+      + ROUTED li1 ( 31885 60815 ) ( 32055 61100 )
+      + ROUTED met1 ( 32430 67080 ) ( 33435 67220 )
+      + ROUTED met1 ( 31885 60960 ) ( 32430 61100 )
+      + ROUTED met2 ( 32360 61030 ) ( 32500 67150 ) ;
+   - net14 ( input14 X )  ( _143_ D ) 
+      + ROUTED li1 ( 37405 66840 ) ( 37575 67745 )
+      + ROUTED li1 ( 38785 63615 ) ( 38955 64565 )
+      + ROUTED met1 ( 37405 67080 ) ( 37950 67220 )
+      + ROUTED met1 ( 37950 64020 ) ( 38955 64160 )
+      + ROUTED met2 ( 37880 64090 ) ( 38020 67150 ) ;
+   - net15 ( input15 X )  ( _144_ D ) 
+      + ROUTED li1 ( 40625 66840 ) ( 40795 67745 )
+      + ROUTED li1 ( 46145 60815 ) ( 46315 61100 )
+      + ROUTED met1 ( 40625 67080 ) ( 43470 67220 )
+      + ROUTED met1 ( 43470 60960 ) ( 46315 61100 )
+      + ROUTED met2 ( 43400 61030 ) ( 43540 67150 ) ;
+   - net16 ( input16 X )  ( _145_ D ) 
+      + ROUTED li1 ( 43845 66840 ) ( 44015 67745 )
+      + ROUTED li1 ( 46145 63615 ) ( 46315 64565 )
+      + ROUTED met1 ( 43845 67080 ) ( 44850 67220 )
+      + ROUTED met1 ( 44850 64020 ) ( 46315 64160 )
+      + ROUTED met2 ( 44780 64090 ) ( 44920 67150 ) ;
+   - net17 ( input17 X )  ( _146_ D ) 
+      + ROUTED li1 ( 46145 66840 ) ( 46315 67745 )
+      + ROUTED li1 ( 45685 58580 ) ( 45855 59125 )
+      + ROUTED met1 ( 45770 67080 ) ( 46315 67220 )
+      + ROUTED met1 ( 45685 58580 ) ( 45855 58720 )
+      + ROUTED met2 ( 45700 58650 ) ( 45840 67150 ) ;
+   - net18 ( input18 X )  ( _147_ D ) 
+      + ROUTED li1 ( 50285 66840 ) ( 50455 67745 )
+      + ROUTED li1 ( 52585 55115 ) ( 52755 56065 )
+      + ROUTED met1 ( 50285 67080 ) ( 51290 67220 )
+      + ROUTED met1 ( 51290 55520 ) ( 52755 55660 )
+      + ROUTED met2 ( 51220 55590 ) ( 51360 67150 ) ;
+   - net19 ( input19 X )  ( _134_ D ) 
+      + ROUTED li1 ( 7965 66840 ) ( 8135 67745 )
+      + ROUTED li1 ( 9805 66255 ) ( 9975 66540 )
+      + ROUTED met1 ( 7965 67080 ) ( 8510 67220 )
+      + ROUTED met1 ( 8510 66400 ) ( 9975 66540 )
+      + ROUTED met2 ( 8440 66470 ) ( 8580 67150 ) ;
+   - net2 ( input2 X )  ( _165_ D ) 
+      + ROUTED li1 ( 54425 12440 ) ( 54595 13345 )
+      + ROUTED li1 ( 54885 20095 ) ( 55055 21045 )
+      + ROUTED met1 ( 54425 12680 ) ( 54595 12820 )
+      + ROUTED met1 ( 54510 20500 ) ( 55055 20640 )
+      + ROUTED met2 ( 54440 12750 ) ( 54580 20570 ) ;
+   - net20 ( input20 X )  ( _148_ D ) 
+      + ROUTED li1 ( 52585 66840 ) ( 52755 67745 )
+      + ROUTED li1 ( 54425 47295 ) ( 54595 48245 )
+      + ROUTED met1 ( 52585 67080 ) ( 53590 67220 )
+      + ROUTED met1 ( 53590 47700 ) ( 54595 47840 )
+      + ROUTED met2 ( 53520 47770 ) ( 53660 67150 ) ;
+   - net21 ( input21 X )  ( _149_ D ) 
+      + ROUTED li1 ( 55805 66840 ) ( 55975 67745 )
+      + ROUTED li1 ( 55345 52735 ) ( 55515 53685 )
+      + ROUTED met1 ( 55430 67080 ) ( 55975 67220 )
+      + ROUTED met1 ( 55345 53140 ) ( 55515 53280 )
+      + ROUTED met2 ( 55360 53210 ) ( 55500 67150 ) ;
+   - net22 ( input22 X )  ( _150_ D ) 
+      + ROUTED li1 ( 59945 66840 ) ( 60115 67745 )
+      + ROUTED li1 ( 59485 44235 ) ( 59655 44780 )
+      + ROUTED met1 ( 59570 67080 ) ( 60115 67220 )
+      + ROUTED met1 ( 59485 44640 ) ( 59655 44780 )
+      + ROUTED met2 ( 59500 44710 ) ( 59640 67150 ) ;
+   - net23 ( input23 X )  ( _151_ D ) 
+      + ROUTED li1 ( 61325 66840 ) ( 61495 67745 )
+      + ROUTED li1 ( 60405 55115 ) ( 60575 56065 )
+      + ROUTED met1 ( 60950 67080 ) ( 61495 67220 )
+      + ROUTED met1 ( 60405 55520 ) ( 60950 55660 )
+      + ROUTED met2 ( 60880 55590 ) ( 61020 67150 ) ;
+   - net24 ( input24 X )  ( _152_ D ) 
+      + ROUTED li1 ( 61325 62815 ) ( 61495 63720 )
+      + ROUTED li1 ( 60405 38795 ) ( 60575 39745 )
+      + ROUTED met1 ( 60490 63340 ) ( 61495 63480 )
+      + ROUTED met1 ( 60405 39200 ) ( 60575 39340 )
+      + ROUTED met2 ( 60420 39270 ) ( 60560 63410 ) ;
+   - net25 ( input25 X )  ( _153_ D ) 
+      + ROUTED li1 ( 9345 12440 ) ( 9515 13345 )
+      + ROUTED li1 ( 8425 33615 ) ( 8595 33900 )
+      + ROUTED met1 ( 8970 13020 ) ( 9515 13160 )
+      + ROUTED met1 ( 8425 33760 ) ( 8970 33900 )
+      + ROUTED met2 ( 8900 13090 ) ( 9040 33830 ) ;
+   - net26 ( input26 X )  ( _154_ D ) 
+      + ROUTED li1 ( 8885 12440 ) ( 9055 13345 )
+      + ROUTED li1 ( 11645 22735 ) ( 11815 23020 )
+      + ROUTED met1 ( 8885 12680 ) ( 10350 12820 )
+      + ROUTED met1 ( 10350 22880 ) ( 11815 23020 )
+      + ROUTED met2 ( 10280 12750 ) ( 10420 22950 ) ;
+   - net27 ( input27 X )  ( _155_ D ) 
+      + ROUTED li1 ( 13025 12440 ) ( 13195 13345 )
+      + ROUTED li1 ( 12565 28175 ) ( 12735 28460 )
+      + ROUTED met1 ( 12650 12680 ) ( 13195 12820 )
+      + ROUTED met1 ( 12565 28320 ) ( 12735 28460 )
+      + ROUTED met2 ( 12580 12750 ) ( 12720 28390 ) ;
+   - net28 ( input28 X )  ( _156_ D ) 
+      + ROUTED li1 ( 17165 12440 ) ( 17335 13345 )
+      + ROUTED li1 ( 20385 22735 ) ( 20555 23020 )
+      + ROUTED met1 ( 17165 12680 ) ( 18630 12820 )
+      + ROUTED met1 ( 18630 22880 ) ( 20555 23020 )
+      + ROUTED met2 ( 18560 12750 ) ( 18700 22950 ) ;
+   - net29 ( input29 X )  ( _157_ D ) 
+      + ROUTED li1 ( 20845 12440 ) ( 21015 13345 )
+      + ROUTED li1 ( 21305 17295 ) ( 21475 17580 )
+      + ROUTED met1 ( 20845 12680 ) ( 21015 12820 )
+      + ROUTED met1 ( 20930 17440 ) ( 21475 17580 )
+      + ROUTED met2 ( 20860 12750 ) ( 21000 17510 ) ;
+   - net3 ( input3 X )  ( _166_ D ) 
+      + ROUTED li1 ( 57645 12440 ) ( 57815 13345 )
+      + ROUTED li1 ( 53045 17035 ) ( 53215 17985 )
+      + ROUTED met1 ( 55890 12680 ) ( 57815 12820 )
+      + ROUTED met1 ( 53045 17440 ) ( 55890 17580 )
+      + ROUTED met2 ( 55820 12750 ) ( 55960 17510 ) ;
+   - net30 ( input30 X )  ( _158_ D ) 
+      + ROUTED li1 ( 22225 12440 ) ( 22395 13345 )
+      + ROUTED li1 ( 24065 11855 ) ( 24235 12140 )
+      + ROUTED met1 ( 22225 12680 ) ( 22770 12820 )
+      + ROUTED met1 ( 22770 12000 ) ( 24235 12140 )
+      + ROUTED met2 ( 22700 12070 ) ( 22840 12750 ) ;
+   - net31 ( input31 X )  ( _159_ D ) 
+      + ROUTED li1 ( 31885 13855 ) ( 32055 14760 )
+      + ROUTED li1 ( 25445 15060 ) ( 25615 15605 )
+      + ROUTED met1 ( 28750 14380 ) ( 32055 14520 )
+      + ROUTED met1 ( 25445 15060 ) ( 28750 15200 )
+      + ROUTED met2 ( 28680 14450 ) ( 28820 15130 ) ;
+   - net32 ( input32 X )  ( _160_ D ) 
+      + ROUTED li1 ( 30965 12440 ) ( 31135 13345 )
+      + ROUTED li1 ( 35565 17295 ) ( 35735 17580 )
+      + ROUTED met1 ( 30965 12680 ) ( 33350 12820 )
+      + ROUTED met1 ( 33350 17440 ) ( 35735 17580 )
+      + ROUTED met2 ( 33280 12750 ) ( 33420 17510 ) ;
+   - net33 ( input33 X )  ( _135_ D ) 
+      + ROUTED li1 ( 11645 62815 ) ( 11815 63720 )
+      + ROUTED li1 ( 12565 55375 ) ( 12735 55660 )
+      + ROUTED met1 ( 11645 63340 ) ( 12190 63480 )
+      + ROUTED met1 ( 12190 55520 ) ( 12735 55660 )
+      + ROUTED met2 ( 12120 55590 ) ( 12260 63410 ) ;
+   - net34 ( input34 X )  ( _161_ D ) 
+      + ROUTED li1 ( 39245 12440 ) ( 39415 13345 )
+      + ROUTED li1 ( 37405 11595 ) ( 37575 12545 )
+      + ROUTED met1 ( 38410 12680 ) ( 39415 12820 )
+      + ROUTED met1 ( 37405 12000 ) ( 38410 12140 )
+      + ROUTED met2 ( 38340 12070 ) ( 38480 12750 ) ;
+   - net35 ( input35 X )  ( _162_ D ) 
+      + ROUTED li1 ( 41085 12440 ) ( 41255 13345 )
+      + ROUTED li1 ( 35105 15060 ) ( 35275 15605 )
+      + ROUTED met1 ( 39790 12680 ) ( 41255 12820 )
+      + ROUTED met1 ( 35105 15060 ) ( 39790 15200 )
+      + ROUTED met2 ( 39720 12750 ) ( 39860 15130 ) ;
+   - net36 ( input36 X )  ( _163_ D ) 
+      + ROUTED li1 ( 46145 12440 ) ( 46315 13345 )
+      + ROUTED li1 ( 46605 14655 ) ( 46775 15605 )
+      + ROUTED met1 ( 46145 12680 ) ( 46315 12820 )
+      + ROUTED met1 ( 46230 15060 ) ( 46775 15200 )
+      + ROUTED met2 ( 46160 12750 ) ( 46300 15130 ) ;
+   - net37 ( output37 A )  ( _169_ Q ) 
+      + ROUTED li1 ( 7965 14965 ) ( 8135 15335 )
+      + ROUTED li1 ( 23605 19340 ) ( 23775 20185 )
+      + ROUTED met1 ( 7965 15060 ) ( 15870 15200 )
+      + ROUTED met1 ( 15870 19820 ) ( 23775 19960 )
+      + ROUTED met2 ( 15800 15130 ) ( 15940 19890 ) ;
+   - net38 ( output38 A )  ( _170_ Q ) 
+      + ROUTED li1 ( 7965 20405 ) ( 8135 20775 )
+      + ROUTED li1 ( 26365 23335 ) ( 26535 24180 )
+      + ROUTED met1 ( 7965 20500 ) ( 20930 20640 )
+      + ROUTED met1 ( 20930 23900 ) ( 26535 24040 )
+      + ROUTED met2 ( 20860 20570 ) ( 21000 23970 ) ;
+   - net39 ( output39 A )  ( _171_ Q ) 
+      + ROUTED li1 ( 7965 31285 ) ( 8135 31655 )
+      + ROUTED li1 ( 7045 24780 ) ( 7215 25625 )
+      + ROUTED met1 ( 7590 31380 ) ( 8135 31520 )
+      + ROUTED met1 ( 7045 25260 ) ( 7590 25400 )
+      + ROUTED met2 ( 7520 25330 ) ( 7660 31450 ) ;
+   - net4 ( input4 X )  ( _167_ D ) 
+      + ROUTED li1 ( 61325 12440 ) ( 61495 13345 )
+      + ROUTED li1 ( 60405 17035 ) ( 60575 17985 )
+      + ROUTED met1 ( 60950 12680 ) ( 61495 12820 )
+      + ROUTED met1 ( 60405 17440 ) ( 60950 17580 )
+      + ROUTED met2 ( 60880 12750 ) ( 61020 17510 ) ;
+   - net40 ( output40 A )  ( _172_ Q ) 
+      + ROUTED li1 ( 7965 42165 ) ( 8135 42535 )
+      + ROUTED li1 ( 7045 39655 ) ( 7215 40500 )
+      + ROUTED met1 ( 7590 42260 ) ( 8135 42400 )
+      + ROUTED met1 ( 7045 39880 ) ( 7590 40020 )
+      + ROUTED met2 ( 7520 39950 ) ( 7660 42330 ) ;
+   - net41 ( output41 A )  ( _173_ Q ) 
+      + ROUTED li1 ( 7965 53045 ) ( 8135 53415 )
+      + ROUTED li1 ( 7045 45095 ) ( 7215 45940 )
+      + ROUTED met1 ( 7590 53140 ) ( 8135 53280 )
+      + ROUTED met1 ( 7045 45320 ) ( 7590 45460 )
+      + ROUTED met2 ( 7520 45390 ) ( 7660 53210 ) ;
+   - net42 ( output42 A )  ( _174_ Q ) 
+      + ROUTED li1 ( 7965 63925 ) ( 8135 64295 )
+      + ROUTED li1 ( 7045 57420 ) ( 7215 58265 )
+      + ROUTED met1 ( 7590 64020 ) ( 8135 64160 )
+      + ROUTED met1 ( 7045 57900 ) ( 7590 58040 )
+      + ROUTED met2 ( 7520 57970 ) ( 7660 64090 ) ;
+   - net43 ( output43 A )  ( _175_ Q ) 
+      + ROUTED li1 ( 13025 63925 ) ( 13195 64295 )
+      + ROUTED li1 ( 7045 46540 ) ( 7215 47385 )
+      + ROUTED met1 ( 9430 64020 ) ( 13195 64160 )
+      + ROUTED met1 ( 7045 47020 ) ( 9430 47160 )
+      + ROUTED met2 ( 9360 47090 ) ( 9500 64090 ) ;
+   - net5 ( input5 X )  ( _168_ D ) 
+      + ROUTED li1 ( 59945 12440 ) ( 60115 13345 )
+      + ROUTED li1 ( 60405 22475 ) ( 60575 23425 )
+      + ROUTED met1 ( 59945 12680 ) ( 60115 12820 )
+      + ROUTED met1 ( 60030 22880 ) ( 60575 23020 )
+      + ROUTED met2 ( 59960 12750 ) ( 60100 22950 ) ;
+   - net6 ( input6 X )  ( _136_ D ) 
+      + ROUTED li1 ( 15785 66840 ) ( 15955 67745 )
+      + ROUTED li1 ( 15325 64020 ) ( 15495 64565 )
+      + ROUTED met1 ( 15410 67080 ) ( 15955 67220 )
+      + ROUTED met1 ( 15325 64020 ) ( 15495 64160 )
+      + ROUTED met2 ( 15340 64090 ) ( 15480 67150 ) ;
+   - net7 ( input7 X )  ( _137_ D ) 
+      + ROUTED li1 ( 18085 66840 ) ( 18255 67745 )
+      + ROUTED li1 ( 20385 44495 ) ( 20555 44780 )
+      + ROUTED met1 ( 18085 67080 ) ( 20470 67220 )
+      + ROUTED met1 ( 20385 44640 ) ( 20555 44780 )
+      + ROUTED met2 ( 20400 44710 ) ( 20540 67150 ) ;
+   - net8 ( input8 X )  ( _138_ D ) 
+      + ROUTED li1 ( 20845 66840 ) ( 21015 67745 )
+      + ROUTED li1 ( 20385 58580 ) ( 20555 59125 )
+      + ROUTED met1 ( 20845 67080 ) ( 21015 67220 )
+      + ROUTED met1 ( 20385 58580 ) ( 20930 58720 )
+      + ROUTED met2 ( 20860 58650 ) ( 21000 67150 ) ;
+   - net9 ( input9 X )  ( _133_ D ) 
+      + ROUTED li1 ( 8425 60815 ) ( 8595 61100 )
+      + ROUTED li1 ( 8425 62815 ) ( 8595 63720 )
+      + ROUTED met1 ( 8425 63340 ) ( 8595 63480 )
+      + ROUTED met1 ( 8425 60960 ) ( 8595 61100 )
+      + ROUTED met2 ( 8440 61030 ) ( 8580 63410 ) ;
+END NETS
+
+END DESIGN
+
